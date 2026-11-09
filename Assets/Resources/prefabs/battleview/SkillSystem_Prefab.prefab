@@ -1,0 +1,539 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1682263104733492
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4339548849722338}
+  - 114: {fileID: 114098483799597391}
+  m_Layer: 0
+  m_Name: SkillSystem_Prefab
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1396115169217942
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4667509364786875}
+  - 114: {fileID: 114308479257150736}
+  - 114: {fileID: 114939171471316337}
+  - 114: {fileID: 114644831358961892}
+  - 114: {fileID: 114071134940654471}
+  - 114: {fileID: 114386080611434454}
+  - 114: {fileID: 114325988899639579}
+  - 114: {fileID: 114409260872274604}
+  - 114: {fileID: 114432217605251295}
+  - 114: {fileID: 114013437320059205}
+  - 114: {fileID: 114052133474068111}
+  - 114: {fileID: 114461190230757496}
+  - 114: {fileID: 114683217503277320}
+  - 114: {fileID: 114234294162611789}
+  - 114: {fileID: 114034318001107120}
+  m_Layer: 0
+  m_Name: ArmorSetSkill
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1451959893305900
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4888305591861749}
+  - 114: {fileID: 114942270500453299}
+  - 114: {fileID: 114390467858378005}
+  - 114: {fileID: 114825400174745062}
+  - 114: {fileID: 114647012310795986}
+  - 114: {fileID: 114802452959002842}
+  - 114: {fileID: 114668820385535163}
+  m_Layer: 0
+  m_Name: FriendAssistSkill
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1364246539517271
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4758990620954586}
+  - 114: {fileID: 114182608981069291}
+  m_Layer: 0
+  m_Name: PlayerSkill
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1998609690523636
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4010576958710100}
+  - 114: {fileID: 114970576768766488}
+  - 114: {fileID: 114148249818796023}
+  m_Layer: 0
+  m_Name: LandDragonArmorPlayerSkill
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4339548849722338
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1682263104733492}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4667509364786875}
+  - {fileID: 4888305591861749}
+  - {fileID: 4758990620954586}
+  - {fileID: 4010576958710100}
+  m_Father: {fileID: 0}
+--- !u!114 &114098483799597391
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1682263104733492}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7337204a110eb6e820ef964897af7b4b, type: 3}
+  m_Name:
+--- !u!4 &4667509364786875
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1396115169217942}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4339548849722338}
+--- !u!114 &114308479257150736
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1396115169217942}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8434759fececcb90772e4dc276605584, type: 3}
+  m_Name:
+  m_armourSetName: special_wolf_t5_a5
+  m_selfSkill: -1
+  m_armorSkill: 0
+  m_cutsceneEnum: 33
+  m_fxAuraPrefab: {fileID: 114746738884309706, guid: b4045021bb76e584782991763c6ad8bf, type: 2}
+  m_extremeAtkMod: 1.8
+  m_extremeDefMod: 12
+  m_extremeSpdMod: 1.5
+  m_exhaustMod: 0.5
+  m_extremeModeTime: 45
+  m_infiniteSkill: 0
+--- !u!114 &114939171471316337
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1396115169217942}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a29fbebdaaa36d8eac0816edf964b27d, type: 3}
+  m_Name:
+  m_weaponBuffFxPrefab: {fileID: 114336442994974354, guid: a2b4be4891e8adb44a4338aa4c935804, type: 2}
+--- !u!114 &114644831358961892
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1396115169217942}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 008c910c19b857a566e544516a3b02b8, type: 3}
+  m_Name:
+  m_cutsceneEnum: 41
+  m_spriteName:
+  m_darkSpriteName:
+  m_skillData: {}
+--- !u!114 &114071134940654471
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1396115169217942}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 338b4ac592c84d11a02fdee67354f4cd, type: 3}
+  m_Name:
+  m_smallFlameFxPrefab: {fileID: 114883330601769675, guid: 910f95c235f69044bba378b7488f057a, type: 2}
+  m_largeFlameFxPrefab: {fileID: 114251968653651076, guid: 4731e2828dfba89478264ecbebb4125d, type: 2}
+  m_explosionPrefab: {fileID: 114321837105698321, guid: b1003c2df2987b84d970dc1549d6f26a, type: 2}
+--- !u!114 &114386080611434454
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1396115169217942}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a89bae1c1fc207d1e305a41675e41903, type: 3}
+  m_Name:
+  m_armourSetName: special_stonedragon_t5_a5
+  m_selfSkill: -1
+  m_armorSkill: 2
+  m_cutsceneEnum: 35
+  m_skillLogicPrefab: {fileID: 114285183740868512, guid: a4633c370e8d57942ba49221a582e210, type: 2}
+  m_buffFxPrefab: {fileID: 114162703562853182, guid: fc91f46ce3988e64fbaf163317b98424, type: 2}
+  m_duration: 6
+  m_armourMultiplier: 1.3
+  m_triggerCondition: 5
+--- !u!114 &114325988899639579
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1396115169217942}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07929327ca955ba1d2ef20d40738e8cd, type: 3}
+  m_Name:
+  m_cutsceneEnum: 42
+  m_spriteName:
+  m_darkSpriteName:
+  m_skillData: {}
+  m_skillLogicPrefab: {fileID: 114289042359701455, guid: 78afd9f674acb164e87d2212e977e66c, type: 2}
+  m_duration: 15
+  m_armourMultiplier: 1.15
+--- !u!114 &114409260872274604
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1396115169217942}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3c6e72306241f7592d300087b3300f6, type: 3}
+  m_Name:
+  m_buffFxPrefab: {fileID: 114238724350553238, guid: 3de1e3e85b6858749983d54afc6627bc, type: 2}
+--- !u!114 &114432217605251295
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1396115169217942}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f004c9718a798bcefce0da99c49a459, type: 3}
+  m_Name:
+  m_armourSetName: special_dark_wolf_t5_a5
+  m_selfSkill: -1
+  m_armorSkill: 0
+  m_cutsceneEnum: 37
+  m_fxAuraPrefab: {fileID: 114324197455605516, guid: 91d8da3c3cb86694f91bf1f7d1009606, type: 2}
+  m_extremeAtkMod: 4
+  m_extremeDefMod: 1
+  m_extremeSpdMod: 1
+  m_exhaustMod: 1
+  m_extremeModeTime: 10
+  m_infiniteSkill: 0
+  m_monsterSloMoPercent: 0.25
+--- !u!114 &114013437320059205
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1396115169217942}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 804a552211740a75d53c6e6b83c66ee5, type: 3}
+  m_Name:
+  m_cutsceneEnum: 40
+  m_spriteName:
+  m_darkSpriteName:
+  m_skillData: {}
+  m_armourSetName: special_wolf_t5_a5
+  m_armorSkill: 0
+--- !u!114 &114052133474068111
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1396115169217942}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 804a552211740a75d53c6e6b83c66ee5, type: 3}
+  m_Name:
+  m_cutsceneEnum: 43
+  m_spriteName:
+  m_darkSpriteName:
+  m_skillData: {}
+  m_armourSetName: special_hydra_t5_a5
+  m_armorSkill: 3
+--- !u!114 &114461190230757496
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1396115169217942}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 804a552211740a75d53c6e6b83c66ee5, type: 3}
+  m_Name:
+  m_cutsceneEnum: 44
+  m_spriteName: friend_assists/skill_dark_buff
+  m_darkSpriteName: friend_assists/skill_dark_buff_off
+  m_skillData: {}
+  m_armourSetName: special_dark_wolf_t5_a5
+  m_armorSkill: 0
+--- !u!114 &114683217503277320
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1396115169217942}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 804a552211740a75d53c6e6b83c66ee5, type: 3}
+  m_Name:
+  m_cutsceneEnum: 45
+  m_spriteName:
+  m_darkSpriteName:
+  m_skillData: {}
+  m_armourSetName: special_landdragon_t5_a5
+  m_armorSkill: 4
+--- !u!114 &114234294162611789
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1396115169217942}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a616c767f10871999bdbdb19d8bce029, type: 3}
+  m_Name:
+  m_cutsceneEnum: 46
+  m_spriteName:
+  m_darkSpriteName:
+  m_skillData: {}
+  m_setName: special_epicdragon_t5_a5
+  m_duration: 12
+  m_damageInterval: 1.5
+  m_flameFxPrefab: {fileID: 114501312757764419, guid: 4e30f186b4c5d034181bb858397da5f2, type: 2}
+--- !u!114 &114034318001107120
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1396115169217942}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 945294521af8a417dabd4e42e8dada57, type: 3}
+  m_Name:
+  m_armourSetName: special_epicdragon_t5_a5
+  m_selfSkill: -1
+  m_armorSkill: 5
+  m_cutsceneEnum: 39
+  m_delayDamageTime: 0.25
+  m_minHpLimit: 0.9
+  m_buffFxPrefab: {fileID: 114162703562853182, guid: fc91f46ce3988e64fbaf163317b98424, type: 2}
+--- !u!4 &4888305591861749
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1451959893305900}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4339548849722338}
+--- !u!114 &114942270500453299
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1451959893305900}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3a246c5869a7e17dbfc30fb5438f8c, type: 3}
+  m_Name:
+  m_cutsceneEnum: 4
+  m_spriteName: friend_assists/skill_heal
+  m_darkSpriteName: friend_assists/skill_heal_off
+  m_skillData: {}
+--- !u!114 &114390467858378005
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1451959893305900}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd3e0b4e07b45b95068d2a327f408b7a, type: 3}
+  m_Name:
+  m_cutsceneEnum: 2
+  m_spriteName: friend_assists/skill_crit
+  m_darkSpriteName: friend_assists/skill_crit_off
+  m_skillData: {}
+  m_buffDuration: 15
+  m_buffFxPrefab: {fileID: 1566009604747812, guid: 684dfba28d518a04f8086fb94cdeaeb1, type: 2}
+--- !u!114 &114825400174745062
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1451959893305900}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05ac0f477f78a88dfc4379198a178b4f, type: 3}
+  m_Name:
+  m_cutsceneEnum: 3
+  m_spriteName: friend_assists/skill_damage_buff
+  m_darkSpriteName: friend_assists/skill_damage_buff_off
+  m_skillData: {}
+  m_buffDuration: 15
+  m_buffFxPrefab: {fileID: 1424737121237594, guid: ad637ce2975fbd24aa0597739bc68c6b, type: 2}
+--- !u!114 &114647012310795986
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1451959893305900}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56cecaef95e2c1bc074b313056d284ae, type: 3}
+  m_Name:
+  m_cutsceneEnum: 1
+  m_spriteName: friend_assists/skill_damage
+  m_darkSpriteName: friend_assists/skill_damage_off
+  m_skillData: {}
+--- !u!114 &114802452959002842
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1451959893305900}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e8f8f93848ac2a7da717262f7b195fc, type: 3}
+  m_Name:
+  m_cutsceneEnum: 0
+  m_spriteName: friend_assists/skill_default
+  m_darkSpriteName: friend_assists/skill_default_off
+  m_skillData: {}
+--- !u!114 &114668820385535163
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1451959893305900}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee0281e933bf2024e57284254cc77c47, type: 3}
+  m_Name:
+  m_cutsceneEnum: 5
+  m_spriteName: friend_assists/skill_stun
+  m_darkSpriteName: friend_assists/skill_stun_off
+  m_skillData: {}
+--- !u!4 &4758990620954586
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1364246539517271}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.52172565, y: -0.22485757, z: -1.9507906}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4339548849722338}
+--- !u!114 &114182608981069291
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1364246539517271}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26158347e31c1a85fee60110d186495c, type: 3}
+  m_Name:
+--- !u!4 &4010576958710100
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1998609690523636}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4339548849722338}
+--- !u!114 &114970576768766488
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1998609690523636}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13dc26cba32c9f3c341325112d070fb7, type: 3}
+  m_Name:
+  m_armourSetName: special_landdragon_t5_a5
+  m_selfSkill: -1
+  m_armorSkill: 4
+  m_cutsceneEnum: 38
+  m_glowFxPrefab: {fileID: 114434464863120834, guid: c8cea120574917542aa7b69c35197eac, type: 2}
+  m_geyserFxPrefab: {fileID: 114150302792822920, guid: 253430d2b1b3e244d9e4bf627510591f, type: 2}
+  m_particleScaleFactor: 0.5
+  m_powerUpPerCharge: 0.1
+  m_basePower: 1.5
+  m_maxCharge: 4
+--- !u!114 &114148249818796023
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1998609690523636}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2ed803f93cb5bd8da283c353b699afd, type: 3}
+  m_Name:
+  m_oneTimeEvent: 0
+  m_triggerCondition: 4
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1682263104733492}
+  m_IsPrefabParent: 1
+  m_IsExploded: 0

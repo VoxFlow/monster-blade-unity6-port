@@ -1,0 +1,329 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1614942818831849
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4252266394651516}
+  - 114: {fileID: 114629513823085465}
+  - 114: {fileID: 114509695258270582}
+  m_Layer: 0
+  m_Name: UI_ATLAS_COLLECTION
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4252266394651516
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1614942818831849}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &114629513823085465
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1614942818831849}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea9f040b2b6bd4bf069e31e0ace12f73, type: 3}
+  m_Name:
+  material: {fileID: 2100000, guid: 9840dab5741ec154bb117564919cad25, type: 2}
+  sprites:
+  - name: Bg_collection
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 955
+      width: 214
+      height: 46
+    inner:
+      serializedVersion: 2
+      x: 105
+      y: 995
+      width: 4
+      height: 4
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Bg_collection_hilite
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 95
+      width: 408
+      height: 29
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 95
+      width: 408
+      height: 29
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: bg_collectiondetail
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 870
+      width: 315
+      height: 83
+    inner:
+      serializedVersion: 2
+      x: 100
+      y: 935
+      width: 115
+      height: 8
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Bg_panelcolor
+    outer:
+      serializedVersion: 2
+      x: 503
+      y: 0
+      width: 5
+      height: 357
+    inner:
+      serializedVersion: 2
+      x: 505
+      y: 0
+      width: 1
+      height: 357
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Collection_title
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 408
+      height: 93
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 408
+      height: 93
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Frame_collection_big
+    outer:
+      serializedVersion: 2
+      x: 322
+      y: 205
+      width: 36
+      height: 35
+    inner:
+      serializedVersion: 2
+      x: 337
+      y: 220
+      width: 6
+      height: 5
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Icon_collection
+    outer:
+      serializedVersion: 2
+      x: 410
+      y: 0
+      width: 91
+      height: 91
+    inner:
+      serializedVersion: 2
+      x: 410
+      y: 0
+      width: 91
+      height: 91
+    paddingLeft: 0.010989011
+    paddingRight: 0.010989011
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Icon_wolfgod
+    outer:
+      serializedVersion: 2
+      x: 366
+      y: 171
+      width: 42
+      height: 43
+    inner:
+      serializedVersion: 2
+      x: 366
+      y: 171
+      width: 42
+      height: 43
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Icon_wolfnemesis
+    outer:
+      serializedVersion: 2
+      x: 366
+      y: 126
+      width: 42
+      height: 43
+    inner:
+      serializedVersion: 2
+      x: 366
+      y: 126
+      width: 42
+      height: 43
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: img_hide
+    outer:
+      serializedVersion: 2
+      x: 322
+      y: 126
+      width: 42
+      height: 77
+    inner:
+      serializedVersion: 2
+      x: 322
+      y: 126
+      width: 42
+      height: 77
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Img_normal
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 498
+      width: 317
+      height: 370
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 498
+      width: 317
+      height: 370
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: img_smoke
+    outer:
+      serializedVersion: 2
+      x: 410
+      y: 93
+      width: 90
+      height: 94
+    inner:
+      serializedVersion: 2
+      x: 410
+      y: 93
+      width: 90
+      height: 94
+    paddingLeft: 0.011111111
+    paddingRight: 0.033333335
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Img_special
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 126
+      width: 320
+      height: 370
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 126
+      width: 320
+      height: 370
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Reward_bar
+    outer:
+      serializedVersion: 2
+      x: 438
+      y: 189
+      width: 23
+      height: 17
+    inner:
+      serializedVersion: 2
+      x: 448
+      y: 189
+      width: 3
+      height: 17
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Reward_frame
+    outer:
+      serializedVersion: 2
+      x: 410
+      y: 189
+      width: 26
+      height: 20
+    inner:
+      serializedVersion: 2
+      x: 420
+      y: 189
+      width: 6
+      height: 20
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!114 &114509695258270582
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1614942818831849}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39fbd7046c824527a419c7fa61f91e44, type: 3}
+  m_Name:
+  mMat: {fileID: 0}
+  mColor: {r: 1, g: 1, b: 1, a: 1}
+  mPivot: 4
+  mDepth: 0
+  mAtlas: {fileID: 0}
+  mSpriteName:
+  mFillCenter: 1
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1614942818831849}
+  m_IsPrefabParent: 1
+  m_IsExploded: 0

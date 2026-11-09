@@ -1,0 +1,515 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1596890195456159
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4409648281377244}
+  - 114: {fileID: 114334141770414163}
+  m_Layer: 0
+  m_Name: UI_ATLAS_MM_OPTIONS
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4409648281377244
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1596890195456159}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &114334141770414163
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1596890195456159}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea9f040b2b6bd4bf069e31e0ace12f73, type: 3}
+  m_Name:
+  material: {fileID: 2100000, guid: bfbc93211e289464babfd93d84ab3cc4, type: 2}
+  sprites:
+  - name: announcement_icon
+    outer:
+      serializedVersion: 2
+      x: 304
+      y: 51
+      width: 142
+      height: 118
+    inner:
+      serializedVersion: 2
+      x: 304
+      y: 51
+      width: 142
+      height: 118
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: block_icon
+    outer:
+      serializedVersion: 2
+      x: 448
+      y: 110
+      width: 32
+      height: 32
+    inner:
+      serializedVersion: 2
+      x: 448
+      y: 110
+      width: 32
+      height: 32
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: blue_btn2
+    outer:
+      serializedVersion: 2
+      x: 22
+      y: 141
+      width: 98
+      height: 52
+    inner:
+      serializedVersion: 2
+      x: 22
+      y: 141
+      width: 98
+      height: 52
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: blue_option_btn
+    outer:
+      serializedVersion: 2
+      x: 304
+      y: 0
+      width: 147
+      height: 49
+    inner:
+      serializedVersion: 2
+      x: 304
+      y: 0
+      width: 147
+      height: 49
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: coloumn_bg
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 20
+      height: 214
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 10
+      width: 20
+      height: 198
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: dungeon_icon
+    outer:
+      serializedVersion: 2
+      x: 144
+      y: 192
+      width: 131
+      height: 100
+    inner:
+      serializedVersion: 2
+      x: 144
+      y: 192
+      width: 131
+      height: 100
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: facebook_icon
+    outer:
+      serializedVersion: 2
+      x: 405
+      y: 391
+      width: 81
+      height: 81
+    inner:
+      serializedVersion: 2
+      x: 405
+      y: 391
+      width: 81
+      height: 81
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Icon_follow_weibo
+    outer:
+      serializedVersion: 2
+      x: 304
+      y: 171
+      width: 139
+      height: 139
+    inner:
+      serializedVersion: 2
+      x: 304
+      y: 171
+      width: 139
+      height: 139
+    paddingLeft: 0.007194245
+    paddingRight: 0.007194245
+    paddingTop: 0.007194245
+    paddingBottom: 0.007194245
+  - name: Icon_like_us
+    outer:
+      serializedVersion: 2
+      x: 163
+      y: 0
+      width: 139
+      height: 139
+    inner:
+      serializedVersion: 2
+      x: 163
+      y: 0
+      width: 139
+      height: 139
+    paddingLeft: 0.007194245
+    paddingRight: 0.007194245
+    paddingTop: 0.007194245
+    paddingBottom: 0.007194245
+  - name: Icon_rate_us
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 359
+      width: 141
+      height: 139
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 359
+      width: 141
+      height: 139
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0.007194245
+    paddingBottom: 0.007194245
+  - name: Lobby_button_blue_generic
+    outer:
+      serializedVersion: 2
+      x: 143
+      y: 294
+      width: 110
+      height: 49
+    inner:
+      serializedVersion: 2
+      x: 191
+      y: 316
+      width: 14
+      height: 5
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: medal_gold
+    outer:
+      serializedVersion: 2
+      x: 143
+      y: 345
+      width: 94
+      height: 119
+    inner:
+      serializedVersion: 2
+      x: 143
+      y: 345
+      width: 94
+      height: 119
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: orange_bg
+    outer:
+      serializedVersion: 2
+      x: 122
+      y: 192
+      width: 20
+      height: 20
+    inner:
+      serializedVersion: 2
+      x: 122
+      y: 192
+      width: 20
+      height: 20
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: promo_code_icon
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 216
+      width: 141
+      height: 141
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 216
+      width: 141
+      height: 141
+    paddingLeft: 0.13475177
+    paddingRight: 0.14893617
+    paddingTop: 0.14893617
+    paddingBottom: 0.120567374
+  - name: question_icon
+    outer:
+      serializedVersion: 2
+      x: 494
+      y: 0
+      width: 15
+      height: 30
+    inner:
+      serializedVersion: 2
+      x: 494
+      y: 0
+      width: 15
+      height: 30
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: red_option_btn
+    outer:
+      serializedVersion: 2
+      x: 122
+      y: 141
+      width: 147
+      height: 49
+    inner:
+      serializedVersion: 2
+      x: 122
+      y: 141
+      width: 147
+      height: 49
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: renren_icon
+    outer:
+      serializedVersion: 2
+      x: 322
+      y: 391
+      width: 81
+      height: 81
+    inner:
+      serializedVersion: 2
+      x: 322
+      y: 391
+      width: 81
+      height: 81
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: setting_nobs
+    outer:
+      serializedVersion: 2
+      x: 448
+      y: 65
+      width: 33
+      height: 43
+    inner:
+      serializedVersion: 2
+      x: 448
+      y: 65
+      width: 33
+      height: 43
+    paddingLeft: 0.030303031
+    paddingRight: 0.030303031
+    paddingTop: 0
+    paddingBottom: 0
+  - name: settings_icon
+    outer:
+      serializedVersion: 2
+      x: 22
+      y: 0
+      width: 139
+      height: 139
+    inner:
+      serializedVersion: 2
+      x: 22
+      y: 0
+      width: 139
+      height: 139
+    paddingLeft: 0.007194245
+    paddingRight: 0.007194245
+    paddingTop: 0.007194245
+    paddingBottom: 0.007194245
+  - name: shield_icon
+    outer:
+      serializedVersion: 2
+      x: 453
+      y: 0
+      width: 39
+      height: 37
+    inner:
+      serializedVersion: 2
+      x: 453
+      y: 0
+      width: 39
+      height: 37
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: slash_icon
+    outer:
+      serializedVersion: 2
+      x: 271
+      y: 141
+      width: 31
+      height: 37
+    inner:
+      serializedVersion: 2
+      x: 271
+      y: 141
+      width: 31
+      height: 37
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: slider_groove
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 500
+      width: 40
+      height: 4
+    inner:
+      serializedVersion: 2
+      x: 10
+      y: 500
+      width: 20
+      height: 4
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: sub_bg_darker
+    outer:
+      serializedVersion: 2
+      x: 453
+      y: 39
+      width: 35
+      height: 24
+    inner:
+      serializedVersion: 2
+      x: 453
+      y: 39
+      width: 35
+      height: 24
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: tab_diselect
+    outer:
+      serializedVersion: 2
+      x: 408
+      y: 312
+      width: 84
+      height: 77
+    inner:
+      serializedVersion: 2
+      x: 408
+      y: 312
+      width: 84
+      height: 77
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: tab_selected
+    outer:
+      serializedVersion: 2
+      x: 322
+      y: 312
+      width: 84
+      height: 77
+    inner:
+      serializedVersion: 2
+      x: 322
+      y: 312
+      width: 84
+      height: 77
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: twitter_icon
+    outer:
+      serializedVersion: 2
+      x: 239
+      y: 428
+      width: 81
+      height: 81
+    inner:
+      serializedVersion: 2
+      x: 239
+      y: 428
+      width: 81
+      height: 81
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: weibo_icon
+    outer:
+      serializedVersion: 2
+      x: 239
+      y: 345
+      width: 81
+      height: 81
+    inner:
+      serializedVersion: 2
+      x: 239
+      y: 345
+      width: 81
+      height: 81
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1596890195456159}
+  m_IsPrefabParent: 1
+  m_IsExploded: 0

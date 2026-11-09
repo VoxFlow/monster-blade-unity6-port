@@ -1,0 +1,175 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1711918565939991
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4436010204634034}
+  - 114: {fileID: 114670638640311795}
+  m_Layer: 0
+  m_Name: UI_ATLAS_MM_TREASURE_Prefab
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4436010204634034
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1711918565939991}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &114670638640311795
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1711918565939991}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea9f040b2b6bd4bf069e31e0ace12f73, type: 3}
+  m_Name:
+  material: {fileID: 2100000, guid: ab0c57a90f3bfd7498f679545edbe882, type: 2}
+  sprites:
+  - name: Btn_fullset
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 170
+      width: 316
+      height: 168
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 170
+      width: 316
+      height: 168
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Btn_fullset_detail
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 424
+      width: 316
+      height: 82
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 424
+      width: 316
+      height: 82
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Btn_gacha_view
+    outer:
+      serializedVersion: 2
+      x: 318
+      y: 96
+      width: 90
+      height: 47
+    inner:
+      serializedVersion: 2
+      x: 333
+      y: 116
+      width: 60
+      height: 7
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Btn_open_gold
+    outer:
+      serializedVersion: 2
+      x: 318
+      y: 48
+      width: 139
+      height: 46
+    inner:
+      serializedVersion: 2
+      x: 318
+      y: 48
+      width: 139
+      height: 46
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Btn_open_silver
+    outer:
+      serializedVersion: 2
+      x: 318
+      y: 0
+      width: 139
+      height: 46
+    inner:
+      serializedVersion: 2
+      x: 318
+      y: 0
+      width: 139
+      height: 46
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Btn_singleset
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 316
+      height: 168
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 316
+      height: 168
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Btn_singleset_detail
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 340
+      width: 316
+      height: 82
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 340
+      width: 316
+      height: 82
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1711918565939991}
+  m_IsPrefabParent: 1
+  m_IsExploded: 0

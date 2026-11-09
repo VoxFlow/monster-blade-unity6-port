@@ -1,0 +1,297 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!29 &6
+SceneSettings:
+  m_ObjectHideFlags: 0
+  m_PVSData:
+  m_QueryMode: 1
+  m_PVSObjectsArray: []
+  m_PVSPortalsArray: []
+  m_OcclusionBakeSettings:
+    viewCellSize: 0
+    bakeMode: 0
+    memoryUsage: 0
+--- !u!104 &9
+RenderSettings:
+  m_Fog: 0
+  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_FogMode: 3
+  m_FogDensity: 0.01
+  m_LinearFogStart: 0
+  m_LinearFogEnd: 300
+  m_AmbientLight: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+  m_SkyboxMaterial: {fileID: 0}
+  m_HaloStrength: 0.5
+  m_FlareStrength: 1
+  m_HaloTexture: {fileID: 0}
+  m_SpotCookie: {fileID: 0}
+  m_ObjectHideFlags: 0
+--- !u!127 &11
+HaloManager:
+  m_ObjectHideFlags: 0
+--- !u!157 &12
+LightmapSettings:
+  m_ObjectHideFlags: 0
+  m_LightProbes: {fileID: 0}
+  m_Lightmaps: []
+  m_LightmapsMode: 1
+  m_BakedColorSpace: 0
+  m_UseDualLightmapsInForward: 0
+  m_LightmapEditorSettings:
+    m_Resolution: 2
+    m_LastUsedResolution: 0
+    m_TextureWidth: 1024
+    m_TextureHeight: 1024
+    m_BounceBoost: 1
+    m_BounceIntensity: 1
+    m_SkyLightColor: {r: 0.86, g: 0.93, b: 1, a: 1}
+    m_SkyLightIntensity: 0
+    m_Quality: 0
+    m_Bounces: 1
+    m_FinalGatherRays: 1000
+    m_FinalGatherContrastThreshold: 0.05
+    m_FinalGatherGradientThreshold: 0
+    m_FinalGatherInterpolationPoints: 15
+    m_AOAmount: 0
+    m_AOMaxDistance: 1
+    m_AOContrast: 1
+    m_LODSurfaceMappingDistance: 1
+    m_Padding: 2
+    m_TextureCompression: 1
+    m_LockAtlas: 0
+--- !u!196 &13
+NavMeshSettings:
+  m_ObjectHideFlags: 0
+  m_BuildSettings:
+    agentRadius: 0.5
+    agentHeight: 2
+    agentSlope: 45
+    agentClimb: 0.4
+    ledgeDropHeight: 0
+    maxJumpAcrossDistance: 0
+    accuratePlacement: 0
+    minRegionArea: 2
+    widthInaccuracy: 0
+    heightInaccuracy: 0
+  m_NavMesh: {fileID: 0}
+--- !u!1 &1
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Component:
+  - 4: {fileID: 3}
+  - 20: {fileID: 5}
+  - 92: {fileID: 8}
+  - 124: {fileID: 10}
+  - 81: {fileID: 7}
+  - 114: {fileID: 14}
+  m_Layer: 0
+  m_Name: Main Camera
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &2
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Component:
+  - 4: {fileID: 4}
+  - 114: {fileID: 17}
+  - 114: {fileID: 16}
+  - 114: {fileID: 15}
+  - 114: {fileID: 18}
+  m_Layer: 0
+  m_Name: SuperAttackSystem_Prefab
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!4 &4
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!20 &5
+Camera:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1}
+  m_Enabled: 1
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0.019607844}
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 0
+  orthographic size: 100
+  m_Depth: -1
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_HDR: 0
+--- !u!81 &7
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1}
+  m_Enabled: 0
+--- !u!92 &8
+GUILayer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1}
+  m_Enabled: 1
+--- !u!124 &10
+FlareLayer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1}
+  m_Enabled: 1
+--- !u!114 &14
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0d2770fdc9b79c7452db81379c4a165, type: 3}
+  m_Name:
+--- !u!114 &15
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3de1142167c7b9a9b62f6df8a1c82ca, type: 3}
+  m_Name:
+  m_data:
+    m_frameSprite: friend_assists/darkfocus_super_frame
+    m_glowSprite: friend_assists/darkglow
+    m_sliderSprite: friend_assists/darkfocus_super_inside
+    m_stunTime: 4
+  m_figureOfEightMomentum: 0.1
+  m_nonFigureOfEightMomentum: 0.0255
+  m_weaponGlowFxPrefab: {fileID: 114162703562853182, guid: fc91f46ce3988e64fbaf163317b98424, type: 2}
+  m_weaponFlareFxPrefab: {fileID: 114227726820303898, guid: 7624338825dc5fe4897c824505a42fa1, type: 2}
+  m_flareFxPrefab: {fileID: 114497470498788521, guid: d807d851b8b5a0e47b8b0684bd576da6, type: 2}
+  m_geyserFxPrefab: {fileID: 114150302792822920, guid: 253430d2b1b3e244d9e4bf627510591f, type: 2}
+  m_slashEffects:
+  - {fileID: 114603152849420806, guid: ee68d0c30c12f864f884866ec721af0b, type: 2}
+  - {fileID: 114947056106646349, guid: de2eccb1d9e7e34498dc7e89fe9cbe82, type: 2}
+  - {fileID: 114041654919376167, guid: 0e0a7646a0316d7498a4c06d9b855c59, type: 2}
+  - {fileID: 114652432683232977, guid: b85393224c650b24b85469d4c994f901, type: 2}
+  - {fileID: 114798546569417304, guid: 491658d96d7abea4487628706d41c87c, type: 2}
+  - {fileID: 114945907031273411, guid: 6e5b2d949a9d3d44f8467551ac923bc7, type: 2}
+  m_cameraRootPrefab: {fileID: 1776967889811073, guid: 02584333ebd19e845bfb7166a2cb24d1, type: 2}
+  m_radiantSwordShader: {fileID: 4800000, guid: ffd0d5c5f6c28e94499b9ea1ebcba178, type: 3}
+  m_radiantSwordColor: {r: 0.60784316, g: 0.3137255, b: 1, a: 0.49803922}
+--- !u!114 &16
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f796ecddff462eae2c3fcb70ff7cff94, type: 3}
+  m_Name:
+--- !u!114 &17
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 44bfbcb764bb90208d606313989cd655, type: 3}
+  m_Name:
+  m_data:
+    m_frameSprite: friend_assists/focus_super_frame
+    m_glowSprite: friend_assists/glow
+    m_sliderSprite: friend_assists/focus_super_inside
+    m_stunTime: 4
+  m_figureOfEightMomentum: 0.1
+  m_nonFigureOfEightMomentum: 0.0255
+  superFxPrefab: {fileID: 1452442608447947, guid: c032dc85e7d0696448a8e7ee5c92e953, type: 2}
+  geyserFxPrefab: {fileID: 1000420926443749, guid: 45fc91ee5e9294949944eb3dd0888059, type: 2}
+  attackAnimations:
+  - Att_Left_Cool
+  - Att_Lefttop_Cool
+  - Att_Leftdown_Cool
+  - Att_Lefttop_Cool
+  - Cutscene_HeavyAttack
+  attackDirections: 0600000004000000060000000400000001000000
+  damageMultipliers:
+  - 0.65
+  - 0.65
+  - 0.65
+  - 0.65
+  - 2
+  sequenceTimes:
+  - 0.6
+  - 0.6
+  - 0.6
+  - 1
+  - 0
+  timeScales:
+  - 1
+  - 1
+  - 0.6
+  - 1
+  - 0.5
+  slowMotionTimes:
+  - 0.25
+  - 2.2
+  - 0.5
+  - 0.65
+  - 0.5
+--- !u!114 &18
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1509256cfda56ccf310b5f6e6e1dd9fb, type: 3}
+  m_Name:

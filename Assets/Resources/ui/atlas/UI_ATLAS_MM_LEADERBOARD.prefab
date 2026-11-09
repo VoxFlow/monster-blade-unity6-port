@@ -1,0 +1,447 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1058552940208502
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4015436309876755}
+  - 114: {fileID: 114268067495396047}
+  m_Layer: 0
+  m_Name: UI_ATLAS_MM_LEADERBOARD
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4015436309876755
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1058552940208502}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &114268067495396047
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1058552940208502}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea9f040b2b6bd4bf069e31e0ace12f73, type: 3}
+  m_Name:
+  material: {fileID: 2100000, guid: 07f6afff1cacbca44a73f946b8e03804, type: 2}
+  sprites:
+  - name: achievements_icon
+    outer:
+      serializedVersion: 2
+      x: 734
+      y: 171
+      width: 81
+      height: 109
+    inner:
+      serializedVersion: 2
+      x: 734
+      y: 171
+      width: 81
+      height: 109
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: bg_blue_trans
+    outer:
+      serializedVersion: 2
+      x: 975
+      y: 120
+      width: 47
+      height: 47
+    inner:
+      serializedVersion: 2
+      x: 975
+      y: 120
+      width: 47
+      height: 47
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: bg_rank
+    outer:
+      serializedVersion: 2
+      x: 553
+      y: 140
+      width: 228
+      height: 29
+    inner:
+      serializedVersion: 2
+      x: 553
+      y: 140
+      width: 228
+      height: 29
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: blue_trans_bg
+    outer:
+      serializedVersion: 2
+      x: 975
+      y: 120
+      width: 47
+      height: 47
+    inner:
+      serializedVersion: 2
+      x: 975
+      y: 120
+      width: 47
+      height: 47
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: brown_box
+    outer:
+      serializedVersion: 2
+      x: 1009
+      y: 181
+      width: 10
+      height: 10
+    inner:
+      serializedVersion: 2
+      x: 1009
+      y: 181
+      width: 10
+      height: 10
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: brown_box_alpha
+    outer:
+      serializedVersion: 2
+      x: 1009
+      y: 169
+      width: 10
+      height: 10
+    inner:
+      serializedVersion: 2
+      x: 1009
+      y: 169
+      width: 10
+      height: 10
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: divider
+    outer:
+      serializedVersion: 2
+      x: 993
+      y: 185
+      width: 6
+      height: 7
+    inner:
+      serializedVersion: 2
+      x: 993
+      y: 185
+      width: 6
+      height: 7
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: divider_duo
+    outer:
+      serializedVersion: 2
+      x: 553
+      y: 133
+      width: 234
+      height: 5
+    inner:
+      serializedVersion: 2
+      x: 553
+      y: 133
+      width: 234
+      height: 5
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: global_leaderboard_banner
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 551
+      height: 171
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 551
+      height: 171
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: global_leaderboard_icon
+    outer:
+      serializedVersion: 2
+      x: 644
+      y: 282
+      width: 117
+      height: 111
+    inner:
+      serializedVersion: 2
+      x: 644
+      y: 282
+      width: 117
+      height: 111
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: help_btn
+    outer:
+      serializedVersion: 2
+      x: 975
+      y: 70
+      width: 48
+      height: 48
+    inner:
+      serializedVersion: 2
+      x: 975
+      y: 70
+      width: 48
+      height: 48
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: heroes_armory_icon
+    outer:
+      serializedVersion: 2
+      x: 817
+      y: 186
+      width: 120
+      height: 120
+    inner:
+      serializedVersion: 2
+      x: 817
+      y: 186
+      width: 120
+      height: 120
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_reward_diamond
+    outer:
+      serializedVersion: 2
+      x: 939
+      y: 194
+      width: 73
+      height: 69
+    inner:
+      serializedVersion: 2
+      x: 939
+      y: 194
+      width: 73
+      height: 69
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: leaderboard_player_selected
+    outer:
+      serializedVersion: 2
+      x: 849
+      y: 0
+      width: 173
+      height: 68
+    inner:
+      serializedVersion: 2
+      x: 911
+      y: 0
+      width: 49
+      height: 68
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: line_divider
+    outer:
+      serializedVersion: 2
+      x: 1021
+      y: 169
+      width: 1
+      height: 1
+    inner:
+      serializedVersion: 2
+      x: 1021
+      y: 169
+      width: 1
+      height: 1
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: name_separator
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 311
+      width: 642
+      height: 61
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 311
+      width: 642
+      height: 61
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: name_separator_2
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 248
+      width: 642
+      height: 61
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 248
+      width: 642
+      height: 61
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: rank1_container
+    outer:
+      serializedVersion: 2
+      x: 553
+      y: 0
+      width: 294
+      height: 131
+    inner:
+      serializedVersion: 2
+      x: 553
+      y: 0
+      width: 294
+      height: 131
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: scroll_bar_back
+    outer:
+      serializedVersion: 2
+      x: 975
+      y: 169
+      width: 16
+      height: 16
+    inner:
+      serializedVersion: 2
+      x: 981
+      y: 175
+      width: 4
+      height: 4
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: scroll_bar_front
+    outer:
+      serializedVersion: 2
+      x: 993
+      y: 169
+      width: 14
+      height: 14
+    inner:
+      serializedVersion: 2
+      x: 993
+      y: 169
+      width: 14
+      height: 14
+    paddingLeft: 0.071428575
+    paddingRight: 0.071428575
+    paddingTop: 0.071428575
+    paddingBottom: 0.071428575
+  - name: special_btn
+    outer:
+      serializedVersion: 2
+      x: 553
+      y: 171
+      width: 179
+      height: 75
+    inner:
+      serializedVersion: 2
+      x: 553
+      y: 171
+      width: 179
+      height: 75
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: tab_selected
+    outer:
+      serializedVersion: 2
+      x: 849
+      y: 128
+      width: 124
+      height: 56
+    inner:
+      serializedVersion: 2
+      x: 849
+      y: 128
+      width: 124
+      height: 56
+    paddingLeft: 0.008064516
+    paddingRight: 0.008064516
+    paddingTop: 0
+    paddingBottom: 0.071428575
+  - name: tab_unselected
+    outer:
+      serializedVersion: 2
+      x: 849
+      y: 70
+      width: 124
+      height: 56
+    inner:
+      serializedVersion: 2
+      x: 849
+      y: 70
+      width: 124
+      height: 56
+    paddingLeft: 0.008064516
+    paddingRight: 0.008064516
+    paddingTop: 0
+    paddingBottom: 0
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1058552940208502}
+  m_IsPrefabParent: 1
+  m_IsExploded: 0

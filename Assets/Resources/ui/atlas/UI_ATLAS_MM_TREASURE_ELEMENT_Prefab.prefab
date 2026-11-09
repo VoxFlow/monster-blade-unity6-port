@@ -1,0 +1,413 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1172842063394830
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4990391439440551}
+  - 114: {fileID: 114713586234859312}
+  m_Layer: 0
+  m_Name: UI_ATLAS_MM_TREASURE_ELEMENT_Prefab
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4990391439440551
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1172842063394830}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &114713586234859312
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1172842063394830}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea9f040b2b6bd4bf069e31e0ace12f73, type: 3}
+  m_Name:
+  material: {fileID: 2100000, guid: bb85e08ca7c77354286ece7b120e3351, type: 2}
+  sprites:
+  - name: banner_free
+    outer:
+      serializedVersion: 2
+      x: 266
+      y: 876
+      width: 93
+      height: 89
+    inner:
+      serializedVersion: 2
+      x: 266
+      y: 876
+      width: 93
+      height: 89
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Bg_set_sub
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 297
+      height: 342
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 297
+      height: 342
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Bg_set3
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 344
+      width: 297
+      height: 342
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 344
+      width: 297
+      height: 342
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: common_treasure_icon
+    outer:
+      serializedVersion: 2
+      x: 266
+      y: 688
+      width: 217
+      height: 186
+    inner:
+      serializedVersion: 2
+      x: 266
+      y: 688
+      width: 217
+      height: 186
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: dragon_head_gold
+    outer:
+      serializedVersion: 2
+      x: 100
+      y: 956
+      width: 118
+      height: 42
+    inner:
+      serializedVersion: 2
+      x: 100
+      y: 956
+      width: 118
+      height: 42
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: epic_treasure_icon
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 688
+      width: 264
+      height: 266
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 688
+      width: 264
+      height: 266
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: fire_icon
+    outer:
+      serializedVersion: 2
+      x: 423
+      y: 425
+      width: 43
+      height: 43
+    inner:
+      serializedVersion: 2
+      x: 423
+      y: 425
+      width: 43
+      height: 43
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: frame_gold
+    outer:
+      serializedVersion: 2
+      x: 299
+      y: 415
+      width: 122
+      height: 60
+    inner:
+      serializedVersion: 2
+      x: 357
+      y: 443
+      width: 6
+      height: 4
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: frame_silver
+    outer:
+      serializedVersion: 2
+      x: 299
+      y: 353
+      width: 122
+      height: 60
+    inner:
+      serializedVersion: 2
+      x: 357
+      y: 381
+      width: 6
+      height: 4
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: gem_icon
+    outer:
+      serializedVersion: 2
+      x: 475
+      y: 153
+      width: 36
+      height: 30
+    inner:
+      serializedVersion: 2
+      x: 475
+      y: 153
+      width: 36
+      height: 30
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: green_btn
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 956
+      width: 98
+      height: 52
+    inner:
+      serializedVersion: 2
+      x: 12
+      y: 976
+      width: 74
+      height: 20
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_social_point
+    outer:
+      serializedVersion: 2
+      x: 475
+      y: 185
+      width: 32
+      height: 45
+    inner:
+      serializedVersion: 2
+      x: 475
+      y: 185
+      width: 32
+      height: 45
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Img_singleset
+    outer:
+      serializedVersion: 2
+      x: 299
+      y: 0
+      width: 180
+      height: 151
+    inner:
+      serializedVersion: 2
+      x: 299
+      y: 0
+      width: 180
+      height: 151
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: lightning_icon
+    outer:
+      serializedVersion: 2
+      x: 468
+      y: 380
+      width: 43
+      height: 43
+    inner:
+      serializedVersion: 2
+      x: 468
+      y: 380
+      width: 43
+      height: 43
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: loading
+    outer:
+      serializedVersion: 2
+      x: 299
+      y: 223
+      width: 128
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 299
+      y: 223
+      width: 128
+      height: 128
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: metal_icon
+    outer:
+      serializedVersion: 2
+      x: 423
+      y: 380
+      width: 43
+      height: 43
+    inner:
+      serializedVersion: 2
+      x: 423
+      y: 380
+      width: 43
+      height: 43
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: nature_icon
+    outer:
+      serializedVersion: 2
+      x: 429
+      y: 335
+      width: 43
+      height: 43
+    inner:
+      serializedVersion: 2
+      x: 429
+      y: 335
+      width: 43
+      height: 43
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: number_container
+    outer:
+      serializedVersion: 2
+      x: 429
+      y: 268
+      width: 65
+      height: 65
+    inner:
+      serializedVersion: 2
+      x: 429
+      y: 268
+      width: 65
+      height: 65
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: pop_up_icon_description
+    outer:
+      serializedVersion: 2
+      x: 299
+      y: 153
+      width: 174
+      height: 68
+    inner:
+      serializedVersion: 2
+      x: 399
+      y: 153
+      width: 54
+      height: 68
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Shad_grad
+    outer:
+      serializedVersion: 2
+      x: 481
+      y: 0
+      width: 10
+      height: 37
+    inner:
+      serializedVersion: 2
+      x: 484
+      y: 3
+      width: 4
+      height: 31
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: water_icon
+    outer:
+      serializedVersion: 2
+      x: 429
+      y: 223
+      width: 43
+      height: 43
+    inner:
+      serializedVersion: 2
+      x: 429
+      y: 223
+      width: 43
+      height: 43
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1172842063394830}
+  m_IsPrefabParent: 1
+  m_IsExploded: 0

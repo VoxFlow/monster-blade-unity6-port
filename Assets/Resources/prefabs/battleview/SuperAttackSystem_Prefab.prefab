@@ -1,0 +1,145 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1997067244118340
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4644400706576980}
+  - 114: {fileID: 114519836178741486}
+  - 114: {fileID: 114102830736326967}
+  - 114: {fileID: 114933021156963224}
+  - 114: {fileID: 114371659960663209}
+  m_Layer: 0
+  m_Name: SuperAttackSystem_Prefab
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4644400706576980
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1997067244118340}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &114519836178741486
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1997067244118340}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 44bfbcb764bb90208d606313989cd655, type: 3}
+  m_Name:
+  m_data:
+    m_frameSprite: friend_assists/focus_super_frame
+    m_glowSprite: friend_assists/glow
+    m_sliderSprite: friend_assists/focus_super_inside
+    m_stunTime: 4
+  m_figureOfEightMomentum: 0.1
+  m_nonFigureOfEightMomentum: 0.0255
+  superFxPrefab: {fileID: 1452442608447947, guid: c032dc85e7d0696448a8e7ee5c92e953, type: 2}
+  geyserFxPrefab: {fileID: 1000420926443749, guid: 45fc91ee5e9294949944eb3dd0888059, type: 2}
+  attackAnimations:
+  - Att_Left_Cool
+  - Att_Lefttop_Cool
+  - Att_Leftdown_Cool
+  - Att_Lefttop_Cool
+  - Cutscene_HeavyAttack
+  attackDirections: 0600000004000000060000000400000001000000
+  damageMultipliers:
+  - 0.65
+  - 0.65
+  - 0.65
+  - 0.65
+  - 2
+  sequenceTimes:
+  - 0.6
+  - 0.6
+  - 0.6
+  - 1
+  - 0
+  timeScales:
+  - 1
+  - 1
+  - 0.6
+  - 1
+  - 0.5
+  slowMotionTimes:
+  - 0.25
+  - 2.2
+  - 0.5
+  - 0.65
+  - 0.5
+--- !u!114 &114102830736326967
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1997067244118340}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f796ecddff462eae2c3fcb70ff7cff94, type: 3}
+  m_Name:
+--- !u!114 &114933021156963224
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1997067244118340}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3de1142167c7b9a9b62f6df8a1c82ca, type: 3}
+  m_Name:
+  m_data:
+    m_frameSprite: friend_assists/darkfocus_super_frame
+    m_glowSprite: friend_assists/darkglow
+    m_sliderSprite: friend_assists/darkfocus_super_inside
+    m_stunTime: 4
+  m_figureOfEightMomentum: 0.1
+  m_nonFigureOfEightMomentum: 0.0255
+  m_weaponGlowFxPrefab: {fileID: 114162703562853182, guid: fc91f46ce3988e64fbaf163317b98424, type: 2}
+  m_weaponFlareFxPrefab: {fileID: 114227726820303898, guid: 7624338825dc5fe4897c824505a42fa1, type: 2}
+  m_flareFxPrefab: {fileID: 114497470498788521, guid: d807d851b8b5a0e47b8b0684bd576da6, type: 2}
+  m_geyserFxPrefab: {fileID: 114150302792822920, guid: 253430d2b1b3e244d9e4bf627510591f, type: 2}
+  m_slashEffects:
+  - {fileID: 114603152849420806, guid: ee68d0c30c12f864f884866ec721af0b, type: 2}
+  - {fileID: 114947056106646349, guid: de2eccb1d9e7e34498dc7e89fe9cbe82, type: 2}
+  - {fileID: 114041654919376167, guid: 0e0a7646a0316d7498a4c06d9b855c59, type: 2}
+  - {fileID: 114652432683232977, guid: b85393224c650b24b85469d4c994f901, type: 2}
+  - {fileID: 114798546569417304, guid: 491658d96d7abea4487628706d41c87c, type: 2}
+  - {fileID: 114945907031273411, guid: 6e5b2d949a9d3d44f8467551ac923bc7, type: 2}
+  m_cameraRootPrefab: {fileID: 1776967889811073, guid: 02584333ebd19e845bfb7166a2cb24d1, type: 2}
+  m_radiantSwordShader: {fileID: 4800000, guid: ffd0d5c5f6c28e94499b9ea1ebcba178, type: 3}
+  m_radiantSwordColor: {r: 0.60784316, g: 0.3137255, b: 1, a: 0.49803922}
+--- !u!114 &114371659960663209
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1997067244118340}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1509256cfda56ccf310b5f6e6e1dd9fb, type: 3}
+  m_Name:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1997067244118340}
+  m_IsPrefabParent: 1
+  m_IsExploded: 0

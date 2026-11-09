@@ -1,0 +1,142 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1201367272580828
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4683030067291256}
+  - 114: {fileID: 114098253955808118}
+  - 114: {fileID: 114594270120632591}
+  - 114: {fileID: 114548973581687451}
+  - 114: {fileID: 114116882790604588}
+  - 114: {fileID: 114805024693434940}
+  - 114: {fileID: 114774489419407927}
+  - 114: {fileID: 114092075132945064}
+  - 114: {fileID: 114458712127562533}
+  m_Layer: 0
+  m_Name: StoneDragonBattleLogic_Prefab
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4683030067291256
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1201367272580828}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &114098253955808118
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1201367272580828}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96dc5393a35f2764f485dfddea1b69c9, type: 3}
+  m_Name:
+  m_superTough: 0
+  m_stunTime: 4
+--- !u!114 &114594270120632591
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1201367272580828}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a135fe2bea6c489ecd6b6423235a7e26, type: 3}
+  m_Name:
+  m_stunTime: 4
+  m_blockStaminaCost: 0.4
+  m_perfectBlockStaminaCost: 0.26
+  m_duration: 0
+  m_monsterShakeInterval: 3
+--- !u!114 &114548973581687451
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1201367272580828}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfe94cd7ba36085ddfbb6aed424d4a42, type: 3}
+  m_Name:
+  m_playerPetrifyLogicPrefab: {fileID: 114339749104105327, guid: ce834f4dc6a308f498a16221489395c8, type: 2}
+--- !u!114 &114116882790604588
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1201367272580828}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65c7180e2c2530d4019629842176f8b1, type: 3}
+  m_Name:
+--- !u!114 &114805024693434940
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1201367272580828}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61505db4094bfcfb5f2610ce53edb64e, type: 3}
+  m_Name:
+  m_inputExpTime: 5
+--- !u!114 &114774489419407927
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1201367272580828}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd0a65713c419997c9c20532e6d3ad5f, type: 3}
+  m_Name:
+--- !u!114 &114092075132945064
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1201367272580828}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 051e29718bb37ae3b6cd1f3063af8168, type: 3}
+  m_Name:
+  m_renderers: []
+  m_fxShatteredPrefab: {fileID: 1111015334084617, guid: c5c9950b8757d744fac8b0e03186edaf, type: 2}
+  m_fxShakingPrefab: {fileID: 1488635535712994, guid: 93f2aa7238b35424aaa51c27f83dae72, type: 2}
+  m_grayShader: {fileID: 4800000, guid: b06e75aeccd26d945add6afec9b8d9fa, type: 3}
+  m_texRockOverlay: {fileID: 2800000, guid: 7f85eb55c1480ff4e961ad7f32f8ccb3, type: 3}
+--- !u!114 &114458712127562533
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1201367272580828}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1191d1cb058d2fe3725e041599064b7, type: 3}
+  m_Name:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1201367272580828}
+  m_IsPrefabParent: 1
+  m_IsExploded: 0

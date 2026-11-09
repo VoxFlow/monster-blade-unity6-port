@@ -1,0 +1,141 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1723322468956595
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4070834782957203}
+  - 114: {fileID: 114213517922944011}
+  m_Layer: 0
+  m_Name: UI_ATLAS_MM_TREASURE_WEAPON
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4070834782957203
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1723322468956595}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &114213517922944011
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1723322468956595}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea9f040b2b6bd4bf069e31e0ace12f73, type: 3}
+  m_Name:
+  material: {fileID: 2100000, guid: 90f7ebdc45dc45143b70e8b1807aa83a, type: 2}
+  sprites:
+  - name: View_fire_weapon
+    outer:
+      serializedVersion: 2
+      x: 562
+      y: 0
+      width: 279
+      height: 446
+    inner:
+      serializedVersion: 2
+      x: 562
+      y: 0
+      width: 279
+      height: 446
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: View_lightning_weapon
+    outer:
+      serializedVersion: 2
+      x: 281
+      y: 448
+      width: 279
+      height: 446
+    inner:
+      serializedVersion: 2
+      x: 281
+      y: 448
+      width: 279
+      height: 446
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: View_metal_weapon
+    outer:
+      serializedVersion: 2
+      x: 281
+      y: 0
+      width: 279
+      height: 446
+    inner:
+      serializedVersion: 2
+      x: 281
+      y: 0
+      width: 279
+      height: 446
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: View_nature_weapon
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 448
+      width: 279
+      height: 446
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 448
+      width: 279
+      height: 446
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: View_water_weapon
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 279
+      height: 446
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 279
+      height: 446
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1723322468956595}
+  m_IsPrefabParent: 1
+  m_IsExploded: 0

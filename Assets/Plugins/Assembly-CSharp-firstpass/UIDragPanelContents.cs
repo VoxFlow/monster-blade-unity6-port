@@ -1,0 +1,69 @@
+using UnityEngine;
+
+[AddComponentMenu("NGUI/Interaction/Drag Panel Contents")]
+[ExecuteInEditMode]
+public class UIDragPanelContents : MonoBehaviour
+{
+	public UIDraggablePanel draggablePanel;
+
+	[HideInInspector]
+	[SerializeField]
+	private UIPanel panel;
+
+	private void Awake()
+	{
+		if (!(panel != null))
+		{
+			return;
+		}
+		if (draggablePanel == null)
+		{
+			draggablePanel = panel.GetComponent<UIDraggablePanel>();
+			if (draggablePanel == null)
+			{
+				draggablePanel = panel.gameObject.AddComponent<UIDraggablePanel>();
+			}
+		}
+		panel = null;
+	}
+
+	private void Start()
+	{
+		if (draggablePanel == null)
+		{
+			draggablePanel = NGUITools.FindInParents<UIDraggablePanel>(base.gameObject);
+		}
+	}
+
+	private void OnPress(bool pressed)
+	{
+		if (base.enabled && base.gameObject.active && draggablePanel != null)
+		{
+			draggablePanel.Press(pressed);
+		}
+	}
+
+	private void OnClick()
+	{
+		if (base.enabled && base.gameObject.active && draggablePanel != null)
+		{
+			draggablePanel.Click();
+		}
+	}
+
+	private void OnDrag(Vector2 delta)
+	{
+		if (base.enabled && base.gameObject.active && draggablePanel != null)
+		{
+			draggablePanel.Drag(delta);
+		}
+	}
+
+	private void OnScroll(float delta)
+	{
+		if (base.enabled && base.gameObject.active && draggablePanel != null)
+		{
+			draggablePanel.Scroll(delta);
+		}
+	}
+}

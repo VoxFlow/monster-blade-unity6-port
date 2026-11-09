@@ -1,0 +1,254 @@
+[resource]
+path=Enemies/Mob12/FBX/
+
+[clip]
+Att_Down=Mob12@Att_Down
+Att_Spin=Mob12@Att_Spin
+Att_Flip=Mob12@Att_Flip
+Att_Petrified=Mob12@Att_Petrified
+Att_Leftdown=Mob12@Att_Leftdown
+Att_Rightdown=Mob12@Att_Rightdown
+Att_Lefttop=Mob12@Att_Lefttop
+Att_Righttop=Mob12@Att_Righttop
+Att_Swipe_Left=Mob12@Att_Swipe_Left
+Att_Swipe_Right=Mob12@Att_Swipe_Right
+Att_Combo_01=Mob12@Att_Combo_01
+Att_Elusive_01=Mob12@Att_Elusive_01
+Att_Elusive_02=Mob12@Att_Elusive_02
+Att_Elusive_03=Mob12@Att_Elusive_03
+Death=Mob12@Death
+Eat=Mob12@Eat
+Hit_Down=Mob12@Hit_Down
+Hit_Left=Mob12@Hit_Left
+Hit_Right=Mob12@Hit_Right
+Hit_Up=Mob12@Hit_Up
+Hit_Up_Heavy=Mob12@Hit_Up_Heavy
+Hit_Down_Heavy=Mob12@Hit_Down_Heavy
+Hit_Left_Heavy=Mob12@Hit_Left_Heavy
+Hit_Right_Heavy=Mob12@Hit_Right_Heavy
+Idle_01=Mob12@Idle_01
+Idle_02=Mob12@Idle_02
+Idle_03=Mob12@Idle_03
+Orient_Left=Mob12@Orient_Left
+Orient_Right=Mob12@Orient_Right
+Run=Mob12@Run
+Stumble=Mob12@Stumble
+Stun=Mob12@Stun
+
+[alias]
+OrientLeft=Orient_Left
+OrientRight=Orient_Right
+
+[wrap_mode]
+Death=ClampForever
+Hit_Down=ClampForever
+Hit_Left=ClampForever
+Hit_Right=ClampForever
+Hit_Up=ClampForever
+Hit_Up_Heavy=ClampForever
+Hit_Down_Heavy=ClampForever
+Hit_Left_Heavy=ClampForever
+Hit_Right_Heavy=ClampForever
+Idle_01=Loop
+Idle_02=Loop
+Idle_03=Loop
+OrientLeft=ClampForever
+OrientRight=ClampForever
+Run=ClampForever
+Stun=Loop
+Stumble=ClampForever
+
+[event_frame]
+Att_Petrified=[OnEyeGaze,void,,21]
+Att_Petrified=[PlaySoundFx,string,list_mob12_attack_petrify,21]
+Att_Petrified=[PlaySoundFx,string,list_mon_footsteps_heavy,88]
+Att_Petrified=[PlaySoundFx,string,list_mon_footsteps_medium,145]
+Att_Petrified=[ShakeCamera,string,Stomp,86]
+
+Att_Down=[PlaySoundFx,string,list_mob12_roar_angry,28]
+Att_Down=[PlaySoundFx,string,list_mon_footsteps_heavy,51]
+Att_Down=[PlaySoundFx,string,list_mon_attack_bite,54]
+Att_Down=[PlaySoundFx,string,list_mon_footsteps_medium,81]
+Att_Down=[PlaySoundFx,string,list_mon_footsteps_heavy,83]
+Att_Down=[EnableTrailRenderer,string,Mob12 Jaw,45]
+Att_Down=[DisableTrailRenderer,string,Mob12 Jaw,57]
+Att_Down=[ShakeCamera,string,Howl,52]
+Att_Down=[ShakeCamera,string,Stomp,85]
+
+Att_Spin=[PlaySoundFx,string,list_mob12_preattack_2,12]
+Att_Spin=[PlaySoundFx,string,list_mon_jump,19]
+Att_Spin=[PlaySoundFx,string,list_mon_footsteps_medium,38]
+Att_Spin=[PlaySoundFx,string,list_mon_footsteps_medium,38]
+Att_Spin=[PlaySoundFx,string,list_mon_attack_tail_heavy,42]
+Att_Spin=[PlaySoundFx,string,list_mon_footsteps_medium,53]
+Att_Spin=[PlaySoundFx,string,list_mon_footsteps_medium,61]
+Att_Spin=[EnableTrailRenderer,string,Mob12 Tail TrailRenderer,42]
+Att_Spin=[DisableTrailRenderer,string,Mob12 Tail TrailRenderer,57]
+Att_Spin=[ShakeCamera,string,Howl2,42]
+
+Att_Flip=[PlaySoundFx,string,list_mob12_preattack_2,3]
+Att_Flip=[PlaySoundFx,string,list_mon_jump,8]
+Att_Flip=[PlaySoundFx,string,list_mon_attack_tail_heavy,14]
+Att_Flip=[PlaySoundFx,string,list_mon_footsteps_heavy,39]
+Att_Flip=[PlaySoundFx,string,list_mob12_roar_short,39]
+Att_Flip=[EnableTrailRenderer,string,Mob12 Tail TrailRenderer,9]
+Att_Flip=[DisableTrailRenderer,string,Mob12 Tail TrailRenderer,21]
+Att_Flip=[ShakeCamera,string,Stomp,38]
+
+Att_Leftdown=[PlaySoundFx,string,list_mob12_preattack_2,3]
+Att_Leftdown=[PlaySoundFx,string,list_mob12_roar_short,36]
+Att_Leftdown=[PlaySoundFx,string,list_mon_attack_claw_heavy,42]
+Att_Leftdown=[PlaySoundFx,string,list_mon_footsteps_medium,47]
+Att_Leftdown=[PlaySoundFx,string,list_mon_footsteps_medium,75]
+Att_Leftdown=[PlaySoundFx,string,list_mon_footsteps_medium,79]
+Att_Leftdown=[PlaySoundFx,string,list_mon_footsteps_medium,82]
+Att_Leftdown=[PlaySoundFx,string,list_mon_footsteps_medium,45]
+Att_Leftdown=[PlaySoundFx,string,list_mon_footsteps_medium,65]
+Att_Leftdown=[PlaySoundFx,string,list_mon_footsteps_medium,75]
+Att_Leftdown=[EnableTrailRenderer,string,Mob12 R Finger0,30]
+Att_Leftdown=[DisableTrailRenderer,string,Mob12 R Finger0,48]
+
+Att_Rightdown=[PlaySoundFx,string,list_mob12_preattack_2,22]
+Att_Rightdown=[PlaySoundFx,string,list_mob12_roar_short,36]
+Att_Rightdown=[PlaySoundFx,string,list_mon_attack_claw_heavy,42]
+Att_Rightdown=[PlaySoundFx,string,list_mob12_roar_angry,43]
+Att_Rightdown=[EnableTrailRenderer,string,Mob12 L Finger0,36]
+Att_Rightdown=[DisableTrailRenderer,string,Mob12 L Finger0,51]
+
+Att_Lefttop=[PlaySoundFx,string,list_mob12_preattack_2,3]
+Att_Lefttop=[PlaySoundFx,string,list_mob12_roar_short,36]
+Att_Lefttop=[PlaySoundFx,string,list_mon_attack_stomp,48]
+Att_Lefttop=[PlaySoundFx,string,list_mon_footsteps_medium,79]
+Att_Lefttop=[PlaySoundFx,string,list_mon_footsteps_medium,88]
+Att_Lefttop=[EnableTrailRenderer,string,Mob12 L Finger0,36]
+Att_Lefttop=[DisableTrailRenderer,string,Mob12 R Finger0,48]
+Att_Lefttop=[ShakeCamera,string,Stomp,48]
+
+Att_Righttop=[PlaySoundFx,string,list_mob12_preattack_2,3]
+Att_Righttop=[PlaySoundFx,string,list_mob12_roar_short,39]
+Att_Righttop=[PlaySoundFx,string,list_mon_attack_stomp,43]
+Att_Righttop=[PlaySoundFx,string,list_mon_footsteps_medium,80]
+Att_Righttop=[PlaySoundFx,string,list_mon_footsteps_medium,83]
+Att_Righttop=[EnableTrailRenderer,string,Mob12 R Finger0,33]
+Att_Righttop=[DisableTrailRenderer,string,Mob12 R Finger0,45]
+Att_Righttop=[ShakeCamera,string,Stomp,43]
+
+Att_Swipe_Left=[PlaySoundFx,string,list_mob12_preattack_2,7]
+Att_Swipe_Left=[PlaySoundFx,string,list_mob12_roar_short,42]
+Att_Swipe_Left=[PlaySoundFx,string,list_mon_attack_claw_heavy,43]
+Att_Swipe_Left=[PlaySoundFx,string,list_mon_footsteps_medium,76]
+Att_Swipe_Left=[PlaySoundFx,string,list_mon_footsteps_medium,81]
+Att_Swipe_Left=[EnableTrailRenderer,string,Mob12 L Finger0,39]
+Att_Swipe_Left=[DisableTrailRenderer,string,Mob12 L Finger0,54]
+
+Att_Swipe_Right=[PlaySoundFx,string,list_mob12_preattack_2,7]
+Att_Swipe_Right=[PlaySoundFx,string,list_mob12_roar_short,39]
+Att_Swipe_Right=[PlaySoundFx,string,list_mon_attack_claw_heavy,42]
+Att_Swipe_Right=[PlaySoundFx,string,list_mon_footsteps_medium,70]
+Att_Swipe_Right=[EnableTrailRenderer,string,Mob12 R Finger0,33]
+Att_Swipe_Right=[DisableTrailRenderer,string,Mob12 R Finger0,48]
+
+Att_Combo_01=[PlaySoundFx,string,list_mob12_preattack_1,15]
+Att_Combo_01=[PlaySoundFx,string,list_mob12_roar_short,42]
+Att_Combo_01=[PlaySoundFx,string,list_mon_attack_claw_heavy,45]
+Att_Combo_01=[PlaySoundFx,string,list_mon_attack_stomp,66]
+Att_Combo_01=[PlaySoundFx,string,list_mob12_roar_short,91]
+Att_Combo_01=[PlaySoundFx,string,list_mon_attack_stomp,96]
+Att_Combo_01=[PlaySoundFx,string,list_mon_footsteps_medium,130]
+Att_Combo_01=[PlaySoundFx,string,list_mon_footsteps_medium,139]
+Att_Combo_01=[EnableTrailRenderer,string,Mob12 L Finger0,36]
+Att_Combo_01=[DisableTrailRenderer,string,Mob12 L Finger0,48]
+Att_Combo_01=[EnableTrailRenderer,string,Mob12 L Finger0,51]
+Att_Combo_01=[DisableTrailRenderer,string,Mob12 L Finger0,66]
+Att_Combo_01=[EnableTrailRenderer,string,Mob12 R Finger0,84]
+Att_Combo_01=[DisableTrailRenderer,string,Mob12 R Finger0,96]
+Att_Combo_01=[ShakeCamera,string,Stomp,65]
+Att_Combo_01=[ShakeCamera,string,Stomp,97]
+
+Att_Elusive_01=[PlaySoundFx,string,list_mob12_preattack_2,12]
+Att_Elusive_01=[PlaySoundFx,string,list_mon_jump,16]
+Att_Elusive_01=[PlaySoundFx,string,list_mon_footsteps_medium,36]
+Att_Elusive_01=[PlaySoundFx,string,list_mon_footsteps_medium,38]
+Att_Elusive_01=[PlaySoundFx,string,list_mob12_roar_short,39]
+Att_Elusive_01=[PlaySoundFx,string,list_mon_footsteps_medium,40]
+Att_Elusive_01=[PlaySoundFx,string,list_mon_attack_stomp,40]
+Att_Elusive_01=[PlaySoundFx,string,list_mon_footsteps_medium,60]
+Att_Elusive_01=[PlaySoundFx,string,list_mon_footsteps_medium,66]
+Att_Elusive_01=[PlaySoundFx,string,list_mon_footsteps_medium,71]
+Att_Elusive_01=[EnableTrailRenderer,string,Mob12 L Finger0,33]
+Att_Elusive_01=[DisableTrailRenderer,string,Mob12 L Finger0,45]
+Att_Elusive_01=[ShakeCamera,string,Stomp,43]
+
+Att_Elusive_02=[PlaySoundFx,string,list_mob12_preattack_2,12]
+Att_Elusive_02=[PlaySoundFx,string,list_mon_jump,16]
+Att_Elusive_02=[PlaySoundFx,string,list_mon_footsteps_medium,30]
+Att_Elusive_02=[PlaySoundFx,string,list_mon_footsteps_medium,36]
+Att_Elusive_02=[PlaySoundFx,string,list_mon_footsteps_medium,39]
+Att_Elusive_02=[PlaySoundFx,string,list_mon_attack_stomp,44]
+Att_Elusive_02=[PlaySoundFx,string,list_mon_footsteps_medium,71]
+Att_Elusive_02=[EnableTrailRenderer,string,Mob12 R Finger0,33]
+Att_Elusive_02=[DisableTrailRenderer,string,Mob12 R Finger0,45]
+Att_Elusive_02=[ShakeCamera,string,Stomp,44]
+
+Att_Elusive_03=[PlaySoundFx,string,list_mob12_roar_short,12]
+Att_Elusive_03=[PlaySoundFx,string,list_mon_jump,43]
+Att_Elusive_03=[PlaySoundFx,string,list_mon_attack_tail_heavy,49]
+Att_Elusive_03=[PlaySoundFx,string,list_mon_footsteps_heavy,73]
+Att_Elusive_03=[PlaySoundFx,string,list_mon_footsteps_heavy,45]
+Att_Elusive_03=[EnableTrailRenderer,string,Mob12 Tail TrailRenderer,45]
+Att_Elusive_03=[DisableTrailRenderer,string,Mob12 Tail TrailRenderer,57]
+Att_Elusive_03=[ShakeCamera,string,Stomp,73]
+
+Death=[PlaySoundFx,string,list_mob12_death,0]
+Death=[PlaySoundFx,string,list_mon_fall_medium,75]
+Death=[PlaySoundFx,string,list_mon_fall_medium,90]
+Death=[PlaySoundFx,string,list_mon_footsteps_medium,108]
+Death=[ShakeCamera,string,Stomp,75]
+
+Eat=[PlaySoundFx,string,list_mon_footsteps_medium,15]
+Eat=[PlaySoundFx,string,list_mon_eat,17]
+Eat=[PlaySoundFx,string,list_mon_footsteps_medium,130]
+Eat=[PlaySoundFx,string,list_mon_footsteps_medium,132]
+
+Idle_03=[PlaySoundFx,string,list_mon_footsteps_medium,63]
+Idle_03=[PlaySoundFx,string,list_mon_footsteps_medium,90]
+
+Run=[PlaySoundFx,string,list_mon_footsteps_medium,13]
+Run=[PlaySoundFx,string,list_mon_footsteps_medium,15]
+
+Stumble=[PlaySoundFx,string,list_mon_fall_light,24]
+
+Stun=[PlaySoundFx,string,list_mob12_stun,0]
+
+Hit_Down=[PlaySoundFx,string,list_mob12_reaction_light,6]
+
+Hit_Up=[PlaySoundFx,string,list_mob12_reaction_light,6]
+
+Hit_Left=[PlaySoundFx,string,list_mob12_reaction_light,6]
+
+Hit_Right=[PlaySoundFx,string,list_mob12_reaction_light,6]
+
+Hit_Up_Heavy=[PlaySoundFx,string,list_mob12_reaction_heavy,3]
+Hit_Up_Heavy=[PlaySoundFx,string,list_mon_fall_medium,7]
+Hit_Up_Heavy=[PlaySoundFx,string,list_mon_footsteps_medium,27]
+Hit_Up_Heavy=[PlaySoundFx,string,list_mon_footsteps_medium,50]
+Hit_Up_Heavy=[ShakeCamera,string,Stomp,7]
+
+Hit_Down_Heavy=[PlaySoundFx,string,list_mob12_reaction_heavy,6]
+Hit_Down_Heavy=[PlaySoundFx,string,list_mon_footsteps_medium,44]
+Hit_Down_Heavy=[PlaySoundFx,string,list_mon_footsteps_medium,51]
+
+Hit_Right_Heavy=[PlaySoundFx,string,list_mob12_reaction_heavy,6]
+Hit_Right_Heavy=[PlaySoundFx,string,list_mon_footsteps_medium,44]
+Hit_Right_Heavy=[PlaySoundFx,string,list_mon_footsteps_medium,51]
+
+Hit_Left_Heavy=[PlaySoundFx,string,list_mob12_reaction_heavy,6]
+Hit_Left_Heavy=[PlaySoundFx,string,list_mon_footsteps_medium,44]
+Hit_Left_Heavy=[PlaySoundFx,string,list_mon_footsteps_medium,51]
+
+OrientLeft=[PlaySoundFx,string,list_mon_footsteps_medium,14]
+OrientLeft=[PlaySoundFx,string,list_mon_footsteps_medium,22]
+
+OrientRight=[PlaySoundFx,string,list_mon_footsteps_medium,17]
+OrientRight=[PlaySoundFx,string,list_mon_footsteps_medium,23]
+

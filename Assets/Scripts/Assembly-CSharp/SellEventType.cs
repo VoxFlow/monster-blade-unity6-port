@@ -1,0 +1,7 @@
+public enum SellEventType
+{
+	OPEN_INVENTORY = 0,
+	CLOSE_INVENTORY = 1,
+	SELL_ITEMS_WARNING = 2,
+	SELL_ITEMS_CONFIRM = 3
+}

@@ -1,0 +1,515 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1016961835873412
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4839498493075738}
+  - 114: {fileID: 114440610773219032}
+  m_Layer: 0
+  m_Name: UI_ATLAS_MM_CHARACTER
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4839498493075738
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1016961835873412}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &114440610773219032
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1016961835873412}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea9f040b2b6bd4bf069e31e0ace12f73, type: 3}
+  m_Name:
+  material: {fileID: 2100000, guid: 153314e94fa7d4d46975b0096cb6e8f1, type: 2}
+  sprites:
+  - name: bag_icon
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 341
+      width: 139
+      height: 139
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 341
+      width: 139
+      height: 139
+    paddingLeft: 0.007194245
+    paddingRight: 0.007194245
+    paddingTop: 0.007194245
+    paddingBottom: 0.007194245
+  - name: base_weapon_BG
+    outer:
+      serializedVersion: 2
+      x: 249
+      y: 131
+      width: 70
+      height: 322
+    inner:
+      serializedVersion: 2
+      x: 252
+      y: 131
+      width: 19
+      height: 322
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: character_frame
+    outer:
+      serializedVersion: 2
+      x: 462
+      y: 436
+      width: 42
+      height: 42
+    inner:
+      serializedVersion: 2
+      x: 474
+      y: 448
+      width: 18
+      height: 18
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: character_icon
+    outer:
+      serializedVersion: 2
+      x: 141
+      y: 455
+      width: 137
+      height: 139
+    inner:
+      serializedVersion: 2
+      x: 141
+      y: 455
+      width: 137
+      height: 139
+    paddingLeft: 0.01459854
+    paddingRight: 0.01459854
+    paddingTop: 0
+    paddingBottom: 0.01438849
+  - name: choosematerial_BG
+    outer:
+      serializedVersion: 2
+      x: 280
+      y: 566
+      width: 119
+      height: 259
+    inner:
+      serializedVersion: 2
+      x: 280
+      y: 566
+      width: 119
+      height: 259
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: collection_icon
+    outer:
+      serializedVersion: 2
+      x: 329
+      y: 0
+      width: 141
+      height: 141
+    inner:
+      serializedVersion: 2
+      x: 329
+      y: 0
+      width: 141
+      height: 139
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: enhance_icon
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 200
+      width: 139
+      height: 139
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 200
+      width: 139
+      height: 139
+    paddingLeft: 0.007194245
+    paddingRight: 0.007194245
+    paddingTop: 0.007194245
+    paddingBottom: 0.007194245
+  - name: evolve_icon
+    outer:
+      serializedVersion: 2
+      x: 321
+      y: 425
+      width: 139
+      height: 139
+    inner:
+      serializedVersion: 2
+      x: 321
+      y: 425
+      width: 139
+      height: 139
+    paddingLeft: 0.007194245
+    paddingRight: 0.007194245
+    paddingTop: 0.007194245
+    paddingBottom: 0.007194245
+  - name: evolve_required_BG
+    outer:
+      serializedVersion: 2
+      x: 462
+      y: 143
+      width: 48
+      height: 66
+    inner:
+      serializedVersion: 2
+      x: 462
+      y: 143
+      width: 48
+      height: 66
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: fire_icon
+    outer:
+      serializedVersion: 2
+      x: 462
+      y: 391
+      width: 43
+      height: 43
+    inner:
+      serializedVersion: 2
+      x: 462
+      y: 391
+      width: 43
+      height: 43
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: gold_frame_evolve
+    outer:
+      serializedVersion: 2
+      x: 401
+      y: 566
+      width: 110
+      height: 49
+    inner:
+      serializedVersion: 2
+      x: 401
+      y: 566
+      width: 110
+      height: 49
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: header_frame_01
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 165
+      width: 244
+      height: 33
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 165
+      width: 244
+      height: 33
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: horizontal_bar_01
+    outer:
+      serializedVersion: 2
+      x: 316
+      y: 78
+      width: 6
+      height: 6
+    inner:
+      serializedVersion: 2
+      x: 317
+      y: 78
+      width: 4
+      height: 6
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: lightning_icon
+    outer:
+      serializedVersion: 2
+      x: 462
+      y: 346
+      width: 43
+      height: 43
+    inner:
+      serializedVersion: 2
+      x: 462
+      y: 346
+      width: 43
+      height: 43
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: max_xp_text
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 131
+      width: 247
+      height: 32
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 131
+      width: 247
+      height: 32
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: metal_icon
+    outer:
+      serializedVersion: 2
+      x: 462
+      y: 301
+      width: 43
+      height: 43
+    inner:
+      serializedVersion: 2
+      x: 462
+      y: 301
+      width: 43
+      height: 43
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: nature_icon
+    outer:
+      serializedVersion: 2
+      x: 462
+      y: 256
+      width: 43
+      height: 43
+    inner:
+      serializedVersion: 2
+      x: 462
+      y: 256
+      width: 43
+      height: 43
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: no_material
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 482
+      width: 122
+      height: 114
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 482
+      width: 122
+      height: 114
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: sell_icon
+    outer:
+      serializedVersion: 2
+      x: 321
+      y: 284
+      width: 139
+      height: 139
+    inner:
+      serializedVersion: 2
+      x: 321
+      y: 284
+      width: 139
+      height: 139
+    paddingLeft: 0.007194245
+    paddingRight: 0.007194245
+    paddingTop: 0.007194245
+    paddingBottom: 0.007194245
+  - name: settings_icon
+    outer:
+      serializedVersion: 2
+      x: 321
+      y: 143
+      width: 139
+      height: 139
+    inner:
+      serializedVersion: 2
+      x: 321
+      y: 143
+      width: 139
+      height: 139
+    paddingLeft: 0.007194245
+    paddingRight: 0.007194245
+    paddingTop: 0.007194245
+    paddingBottom: 0.007194245
+  - name: SUCCESS
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 69
+      width: 314
+      height: 60
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 69
+      width: 314
+      height: 60
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: vertical_bar_01
+    outer:
+      serializedVersion: 2
+      x: 316
+      y: 69
+      width: 7
+      height: 7
+    inner:
+      serializedVersion: 2
+      x: 316
+      y: 70
+      width: 7
+      height: 5
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: water_icon
+    outer:
+      serializedVersion: 2
+      x: 462
+      y: 211
+      width: 43
+      height: 43
+    inner:
+      serializedVersion: 2
+      x: 462
+      y: 211
+      width: 43
+      height: 43
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: xp_bar_blue
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 21
+      width: 320
+      height: 14
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 21
+      width: 320
+      height: 14
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: XP_bar_container
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 327
+      height: 19
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 327
+      height: 19
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: XP_bar_flash
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 53
+      width: 320
+      height: 14
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 53
+      width: 320
+      height: 14
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: XP_bar_positive
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 37
+      width: 320
+      height: 14
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 37
+      width: 320
+      height: 14
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1016961835873412}
+  m_IsPrefabParent: 1
+  m_IsExploded: 0

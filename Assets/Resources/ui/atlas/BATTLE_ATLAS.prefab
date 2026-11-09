@@ -1,0 +1,1382 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1386955689237248
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4329075505010622}
+  - 114: {fileID: 114572223604292325}
+  m_Layer: 0
+  m_Name: BATTLE_ATLAS
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4329075505010622
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1386955689237248}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &114572223604292325
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1386955689237248}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea9f040b2b6bd4bf069e31e0ace12f73, type: 3}
+  m_Name:
+  material: {fileID: 2100000, guid: ee27aed44c4cb484b8d19c63ea876416, type: 2}
+  sprites:
+  - name: battle_announcement/battle_fire
+    outer:
+      serializedVersion: 2
+      x: 377
+      y: 180
+      width: 378
+      height: 84
+    inner:
+      serializedVersion: 2
+      x: 377
+      y: 180
+      width: 378
+      height: 84
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: battle_announcement/bg_gradientblack
+    outer:
+      serializedVersion: 2
+      x: 377
+      y: 97
+      width: 450
+      height: 1
+    inner:
+      serializedVersion: 2
+      x: 377
+      y: 97
+      width: 450
+      height: 1
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: battle_announcement/bg_solidwhite
+    outer:
+      serializedVersion: 2
+      x: 377
+      y: 94
+      width: 450
+      height: 1
+    inner:
+      serializedVersion: 2
+      x: 377
+      y: 94
+      width: 450
+      height: 1
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: battle_announcement/generic_0
+    outer:
+      serializedVersion: 2
+      x: 62
+      y: 917
+      width: 59
+      height: 83
+    inner:
+      serializedVersion: 2
+      x: 62
+      y: 917
+      width: 59
+      height: 83
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: battle_announcement/generic_1
+    outer:
+      serializedVersion: 2
+      x: 685
+      y: 936
+      width: 43
+      height: 83
+    inner:
+      serializedVersion: 2
+      x: 685
+      y: 936
+      width: 43
+      height: 83
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: battle_announcement/generic_2
+    outer:
+      serializedVersion: 2
+      x: 407
+      y: 913
+      width: 61
+      height: 83
+    inner:
+      serializedVersion: 2
+      x: 407
+      y: 913
+      width: 61
+      height: 83
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: battle_announcement/generic_3
+    outer:
+      serializedVersion: 2
+      x: 183
+      y: 917
+      width: 58
+      height: 83
+    inner:
+      serializedVersion: 2
+      x: 183
+      y: 917
+      width: 58
+      height: 83
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: battle_announcement/generic_4
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 917
+      width: 60
+      height: 83
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 917
+      width: 60
+      height: 83
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: battle_announcement/generic_5
+    outer:
+      serializedVersion: 2
+      x: 344
+      y: 913
+      width: 61
+      height: 83
+    inner:
+      serializedVersion: 2
+      x: 344
+      y: 913
+      width: 61
+      height: 83
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: battle_announcement/generic_6
+    outer:
+      serializedVersion: 2
+      x: 952
+      y: 792
+      width: 62
+      height: 83
+    inner:
+      serializedVersion: 2
+      x: 952
+      y: 792
+      width: 62
+      height: 83
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: battle_announcement/generic_7
+    outer:
+      serializedVersion: 2
+      x: 757
+      y: 180
+      width: 62
+      height: 83
+    inner:
+      serializedVersion: 2
+      x: 757
+      y: 180
+      width: 62
+      height: 83
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: battle_announcement/generic_8
+    outer:
+      serializedVersion: 2
+      x: 123
+      y: 917
+      width: 58
+      height: 83
+    inner:
+      serializedVersion: 2
+      x: 123
+      y: 917
+      width: 58
+      height: 83
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: battle_announcement/generic_9
+    outer:
+      serializedVersion: 2
+      x: 622
+      y: 936
+      width: 61
+      height: 83
+    inner:
+      serializedVersion: 2
+      x: 622
+      y: 936
+      width: 61
+      height: 83
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: battle_announcement/generic_of
+    outer:
+      serializedVersion: 2
+      x: 906
+      y: 720
+      width: 59
+      height: 48
+    inner:
+      serializedVersion: 2
+      x: 906
+      y: 720
+      width: 59
+      height: 48
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: bossname_bg
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 326
+      width: 505
+      height: 92
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 326
+      width: 505
+      height: 92
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: bossname_bg_red
+    outer:
+      serializedVersion: 2
+      x: 377
+      y: 0
+      width: 493
+      height: 92
+    inner:
+      serializedVersion: 2
+      x: 377
+      y: 0
+      width: 493
+      height: 92
+    paddingLeft: 0
+    paddingRight: 0.024340771
+    paddingTop: 0
+    paddingBottom: 0
+  - name: coin_flip_01
+    outer:
+      serializedVersion: 2
+      x: 122
+      y: 528
+      width: 94
+      height: 94
+    inner:
+      serializedVersion: 2
+      x: 122
+      y: 528
+      width: 94
+      height: 94
+    paddingLeft: 0.010638298
+    paddingRight: 0.010638298
+    paddingTop: 0.010638298
+    paddingBottom: 0.010638298
+  - name: coin_flip_02
+    outer:
+      serializedVersion: 2
+      x: 260
+      y: 913
+      width: 82
+      height: 94
+    inner:
+      serializedVersion: 2
+      x: 260
+      y: 913
+      width: 82
+      height: 94
+    paddingLeft: 0.09756097
+    paddingRight: 0.07317073
+    paddingTop: 0.010638298
+    paddingBottom: 0.010638298
+  - name: coin_flip_03
+    outer:
+      serializedVersion: 2
+      x: 950
+      y: 163
+      width: 66
+      height: 94
+    inner:
+      serializedVersion: 2
+      x: 950
+      y: 163
+      width: 66
+      height: 94
+    paddingLeft: 0.24242425
+    paddingRight: 0.21212122
+    paddingTop: 0.010638298
+    paddingBottom: 0.010638298
+  - name: coin_flip_04
+    outer:
+      serializedVersion: 2
+      x: 986
+      y: 696
+      width: 38
+      height: 94
+    inner:
+      serializedVersion: 2
+      x: 986
+      y: 696
+      width: 38
+      height: 94
+    paddingLeft: 0.7894737
+    paddingRight: 0.7368421
+    paddingTop: 0.010638298
+    paddingBottom: 0.010638298
+  - name: coin_flip_05
+    outer:
+      serializedVersion: 2
+      x: 108
+      y: 484
+      width: 12
+      height: 94
+    inner:
+      serializedVersion: 2
+      x: 108
+      y: 484
+      width: 12
+      height: 94
+    paddingLeft: 3.5
+    paddingRight: 3.5
+    paddingTop: 0.010638298
+    paddingBottom: 0.010638298
+  - name: coin_flip_06
+    outer:
+      serializedVersion: 2
+      x: 986
+      y: 600
+      width: 38
+      height: 94
+    inner:
+      serializedVersion: 2
+      x: 986
+      y: 600
+      width: 38
+      height: 94
+    paddingLeft: 0.7894737
+    paddingRight: 0.7368421
+    paddingTop: 0.010638298
+    paddingBottom: 0.010638298
+  - name: coin_flip_07
+    outer:
+      serializedVersion: 2
+      x: 950
+      y: 67
+      width: 66
+      height: 94
+    inner:
+      serializedVersion: 2
+      x: 950
+      y: 67
+      width: 66
+      height: 94
+    paddingLeft: 0.24242425
+    paddingRight: 0.21212122
+    paddingTop: 0.010638298
+    paddingBottom: 0.010638298
+  - name: coin_flip_08
+    outer:
+      serializedVersion: 2
+      x: 938
+      y: 900
+      width: 82
+      height: 94
+    inner:
+      serializedVersion: 2
+      x: 938
+      y: 900
+      width: 82
+      height: 94
+    paddingLeft: 0.09756097
+    paddingRight: 0.07317073
+    paddingTop: 0.010638298
+    paddingBottom: 0.010638298
+  - name: dragon_logo_blue
+    outer:
+      serializedVersion: 2
+      x: 260
+      y: 675
+      width: 258
+      height: 236
+    inner:
+      serializedVersion: 2
+      x: 260
+      y: 675
+      width: 258
+      height: 236
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0.016949153
+  - name: dragon_logo_red
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 675
+      width: 258
+      height: 240
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 675
+      width: 258
+      height: 240
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: enemy_health_back
+    outer:
+      serializedVersion: 2
+      x: 377
+      y: 120
+      width: 388
+      height: 18
+    inner:
+      serializedVersion: 2
+      x: 377
+      y: 120
+      width: 388
+      height: 18
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: enemy_health_front
+    outer:
+      serializedVersion: 2
+      x: 377
+      y: 100
+      width: 388
+      height: 18
+    inner:
+      serializedVersion: 2
+      x: 377
+      y: 100
+      width: 388
+      height: 18
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: enemy_momentum_BG
+    outer:
+      serializedVersion: 2
+      x: 377
+      y: 312
+      width: 292
+      height: 12
+    inner:
+      serializedVersion: 2
+      x: 377
+      y: 312
+      width: 292
+      height: 12
+    paddingLeft: 1.869863
+    paddingRight: 0.4178082
+    paddingTop: 1.9166666
+    paddingBottom: 50.416668
+  - name: enemy_momentum_front
+    outer:
+      serializedVersion: 2
+      x: 681
+      y: 298
+      width: 291
+      height: 11
+    inner:
+      serializedVersion: 2
+      x: 681
+      y: 298
+      width: 291
+      height: 11
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: enemy_momentum_front_red
+    outer:
+      serializedVersion: 2
+      x: 377
+      y: 298
+      width: 302
+      height: 12
+    inner:
+      serializedVersion: 2
+      x: 377
+      y: 298
+      width: 302
+      height: 12
+    paddingLeft: 1.7748344
+    paddingRight: 0.40397352
+    paddingTop: 1.9166666
+    paddingBottom: 50.416668
+  - name: fast_forward_icon
+    outer:
+      serializedVersion: 2
+      x: 821
+      y: 215
+      width: 74
+      height: 44
+    inner:
+      serializedVersion: 2
+      x: 821
+      y: 215
+      width: 74
+      height: 44
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: fire_icon
+    outer:
+      serializedVersion: 2
+      x: 673
+      y: 783
+      width: 43
+      height: 43
+    inner:
+      serializedVersion: 2
+      x: 673
+      y: 783
+      width: 43
+      height: 43
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: flash_white
+    outer:
+      serializedVersion: 2
+      x: 952
+      y: 534
+      width: 64
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 952
+      y: 534
+      width: 64
+      height: 64
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: friend_assists/darkfocus_super_frame
+    outer:
+      serializedVersion: 2
+      x: 837
+      y: 900
+      width: 99
+      height: 99
+    inner:
+      serializedVersion: 2
+      x: 837
+      y: 900
+      width: 99
+      height: 99
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: friend_assists/darkfocus_super_inside
+    outer:
+      serializedVersion: 2
+      x: 736
+      y: 929
+      width: 85
+      height: 85
+    inner:
+      serializedVersion: 2
+      x: 736
+      y: 929
+      width: 85
+      height: 85
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: friend_assists/darkglow
+    outer:
+      serializedVersion: 2
+      x: 806
+      y: 311
+      width: 119
+      height: 119
+    inner:
+      serializedVersion: 2
+      x: 806
+      y: 311
+      width: 119
+      height: 119
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: friend_assists/focus_super_frame
+    outer:
+      serializedVersion: 2
+      x: 736
+      y: 828
+      width: 99
+      height: 99
+    inner:
+      serializedVersion: 2
+      x: 736
+      y: 828
+      width: 99
+      height: 99
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: friend_assists/focus_super_inside
+    outer:
+      serializedVersion: 2
+      x: 410
+      y: 528
+      width: 85
+      height: 85
+    inner:
+      serializedVersion: 2
+      x: 410
+      y: 528
+      width: 85
+      height: 85
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: friend_assists/glow
+    outer:
+      serializedVersion: 2
+      x: 829
+      y: 94
+      width: 119
+      height: 119
+    inner:
+      serializedVersion: 2
+      x: 829
+      y: 94
+      width: 119
+      height: 119
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: friend_assists/skill_crit
+    outer:
+      serializedVersion: 2
+      x: 520
+      y: 891
+      width: 100
+      height: 100
+    inner:
+      serializedVersion: 2
+      x: 520
+      y: 891
+      width: 100
+      height: 100
+    paddingLeft: 0.03
+    paddingRight: 0.03
+    paddingTop: 0.03
+    paddingBottom: 0.03
+  - name: friend_assists/skill_crit_off
+    outer:
+      serializedVersion: 2
+      x: 628
+      y: 828
+      width: 106
+      height: 106
+    inner:
+      serializedVersion: 2
+      x: 628
+      y: 828
+      width: 106
+      height: 106
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: friend_assists/skill_damage
+    outer:
+      serializedVersion: 2
+      x: 520
+      y: 783
+      width: 106
+      height: 106
+    inner:
+      serializedVersion: 2
+      x: 520
+      y: 783
+      width: 106
+      height: 106
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: friend_assists/skill_damage_buff
+    outer:
+      serializedVersion: 2
+      x: 844
+      y: 792
+      width: 106
+      height: 106
+    inner:
+      serializedVersion: 2
+      x: 844
+      y: 792
+      width: 106
+      height: 106
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: friend_assists/skill_damage_buff_off
+    outer:
+      serializedVersion: 2
+      x: 736
+      y: 720
+      width: 106
+      height: 106
+    inner:
+      serializedVersion: 2
+      x: 736
+      y: 720
+      width: 106
+      height: 106
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: friend_assists/skill_damage_off
+    outer:
+      serializedVersion: 2
+      x: 628
+      y: 675
+      width: 106
+      height: 106
+    inner:
+      serializedVersion: 2
+      x: 628
+      y: 675
+      width: 106
+      height: 106
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: friend_assists/skill_dark_buff
+    outer:
+      serializedVersion: 2
+      x: 924
+      y: 432
+      width: 100
+      height: 100
+    inner:
+      serializedVersion: 2
+      x: 924
+      y: 432
+      width: 100
+      height: 100
+    paddingLeft: 0.03
+    paddingRight: 0.03
+    paddingTop: 0.03
+    paddingBottom: 0.03
+  - name: friend_assists/skill_dark_buff_off
+    outer:
+      serializedVersion: 2
+      x: 927
+      y: 311
+      width: 96
+      height: 96
+    inner:
+      serializedVersion: 2
+      x: 927
+      y: 311
+      width: 96
+      height: 96
+    paddingLeft: 0.052083332
+    paddingRight: 0.052083332
+    paddingTop: 0.052083332
+    paddingBottom: 0.052083332
+  - name: friend_assists/skill_default
+    outer:
+      serializedVersion: 2
+      x: 520
+      y: 675
+      width: 106
+      height: 106
+    inner:
+      serializedVersion: 2
+      x: 520
+      y: 675
+      width: 106
+      height: 106
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: friend_assists/skill_default_off
+    outer:
+      serializedVersion: 2
+      x: 362
+      y: 420
+      width: 106
+      height: 106
+    inner:
+      serializedVersion: 2
+      x: 362
+      y: 420
+      width: 106
+      height: 106
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: friend_assists/skill_heal
+    outer:
+      serializedVersion: 2
+      x: 254
+      y: 420
+      width: 106
+      height: 106
+    inner:
+      serializedVersion: 2
+      x: 254
+      y: 420
+      width: 106
+      height: 106
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: friend_assists/skill_heal_off
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 484
+      width: 106
+      height: 106
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 484
+      width: 106
+      height: 106
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: friend_assists/skill_stun
+    outer:
+      serializedVersion: 2
+      x: 146
+      y: 420
+      width: 106
+      height: 106
+    inner:
+      serializedVersion: 2
+      x: 146
+      y: 420
+      width: 106
+      height: 106
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: friend_assists/skill_stun_off
+    outer:
+      serializedVersion: 2
+      x: 878
+      y: 612
+      width: 106
+      height: 106
+    inner:
+      serializedVersion: 2
+      x: 878
+      y: 612
+      width: 106
+      height: 106
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: gold_counter
+    outer:
+      serializedVersion: 2
+      x: 897
+      y: 215
+      width: 50
+      height: 49
+    inner:
+      serializedVersion: 2
+      x: 897
+      y: 215
+      width: 50
+      height: 49
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: health_back
+    outer:
+      serializedVersion: 2
+      x: 377
+      y: 160
+      width: 387
+      height: 18
+    inner:
+      serializedVersion: 2
+      x: 377
+      y: 160
+      width: 387
+      height: 18
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: health_front
+    outer:
+      serializedVersion: 2
+      x: 377
+      y: 140
+      width: 387
+      height: 18
+    inner:
+      serializedVersion: 2
+      x: 377
+      y: 140
+      width: 387
+      height: 18
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: healthHUD
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 625
+      width: 876
+      height: 48
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 625
+      width: 876
+      height: 48
+    paddingLeft: 0.047945205
+    paddingRight: 0.047945205
+    paddingTop: 0
+    paddingBottom: 12.333333
+  - name: left_dodge
+    outer:
+      serializedVersion: 2
+      x: 314
+      y: 528
+      width: 94
+      height: 88
+    inner:
+      serializedVersion: 2
+      x: 314
+      y: 528
+      width: 94
+      height: 88
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: lightning_icon
+    outer:
+      serializedVersion: 2
+      x: 628
+      y: 783
+      width: 43
+      height: 43
+    inner:
+      serializedVersion: 2
+      x: 628
+      y: 783
+      width: 43
+      height: 43
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: metal_icon
+    outer:
+      serializedVersion: 2
+      x: 826
+      y: 675
+      width: 43
+      height: 43
+    inner:
+      serializedVersion: 2
+      x: 826
+      y: 675
+      width: 43
+      height: 43
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: momentum_back
+    outer:
+      serializedVersion: 2
+      x: 687
+      y: 282
+      width: 296
+      height: 14
+    inner:
+      serializedVersion: 2
+      x: 687
+      y: 282
+      width: 296
+      height: 14
+    paddingLeft: 0.40202704
+    paddingRight: 1.8412162
+    paddingTop: 1.5
+    paddingBottom: 43.214287
+  - name: momentum_front
+    outer:
+      serializedVersion: 2
+      x: 687
+      y: 266
+      width: 296
+      height: 14
+    inner:
+      serializedVersion: 2
+      x: 687
+      y: 266
+      width: 296
+      height: 14
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: momentum_front_bright
+    outer:
+      serializedVersion: 2
+      x: 377
+      y: 282
+      width: 308
+      height: 14
+    inner:
+      serializedVersion: 2
+      x: 377
+      y: 282
+      width: 308
+      height: 14
+    paddingLeft: 0.38311687
+    paddingRight: 1.7337662
+    paddingTop: 1.5
+    paddingBottom: 43.214287
+  - name: momentum_front_red
+    outer:
+      serializedVersion: 2
+      x: 377
+      y: 266
+      width: 308
+      height: 14
+    inner:
+      serializedVersion: 2
+      x: 377
+      y: 266
+      width: 308
+      height: 14
+    paddingLeft: 0.38311687
+    paddingRight: 1.7337662
+    paddingTop: 1.5
+    paddingBottom: 43.214287
+  - name: nature_icon
+    outer:
+      serializedVersion: 2
+      x: 781
+      y: 675
+      width: 43
+      height: 43
+    inner:
+      serializedVersion: 2
+      x: 781
+      y: 675
+      width: 43
+      height: 43
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: pause_btn
+    outer:
+      serializedVersion: 2
+      x: 767
+      y: 100
+      width: 58
+      height: 58
+    inner:
+      serializedVersion: 2
+      x: 767
+      y: 100
+      width: 58
+      height: 58
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: right_dodge
+    outer:
+      serializedVersion: 2
+      x: 218
+      y: 528
+      width: 94
+      height: 88
+    inner:
+      serializedVersion: 2
+      x: 218
+      y: 528
+      width: 94
+      height: 88
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: shield
+    outer:
+      serializedVersion: 2
+      x: 806
+      y: 432
+      width: 116
+      height: 114
+    inner:
+      serializedVersion: 2
+      x: 806
+      y: 432
+      width: 116
+      height: 114
+    paddingLeft: 0.18965517
+    paddingRight: 0.18965517
+    paddingTop: 0.27192983
+    paddingBottom: 0.13157895
+  - name: smoke_fx
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 375
+      height: 324
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 375
+      height: 324
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: speed_icon
+    outer:
+      serializedVersion: 2
+      x: 470
+      y: 913
+      width: 45
+      height: 44
+    inner:
+      serializedVersion: 2
+      x: 470
+      y: 913
+      width: 45
+      height: 44
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: super_text
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 420
+      width: 144
+      height: 62
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 420
+      width: 144
+      height: 62
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: super_text_red
+    outer:
+      serializedVersion: 2
+      x: 806
+      y: 548
+      width: 144
+      height: 62
+    inner:
+      serializedVersion: 2
+      x: 806
+      y: 548
+      width: 144
+      height: 62
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: TargetTapRing
+    outer:
+      serializedVersion: 2
+      x: 507
+      y: 326
+      width: 297
+      height: 297
+    inner:
+      serializedVersion: 2
+      x: 507
+      y: 326
+      width: 297
+      height: 297
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: text_rage
+    outer:
+      serializedVersion: 2
+      x: 872
+      y: 0
+      width: 131
+      height: 65
+    inner:
+      serializedVersion: 2
+      x: 872
+      y: 0
+      width: 131
+      height: 65
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: treasure_counter
+    outer:
+      serializedVersion: 2
+      x: 844
+      y: 720
+      width: 60
+      height: 47
+    inner:
+      serializedVersion: 2
+      x: 844
+      y: 720
+      width: 60
+      height: 47
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: water_icon
+    outer:
+      serializedVersion: 2
+      x: 736
+      y: 675
+      width: 43
+      height: 43
+    inner:
+      serializedVersion: 2
+      x: 736
+      y: 675
+      width: 43
+      height: 43
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: white_dot
+    outer:
+      serializedVersion: 2
+      x: 766
+      y: 160
+      width: 14
+      height: 14
+    inner:
+      serializedVersion: 2
+      x: 766
+      y: 160
+      width: 14
+      height: 14
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1386955689237248}
+  m_IsPrefabParent: 1
+  m_IsExploded: 0

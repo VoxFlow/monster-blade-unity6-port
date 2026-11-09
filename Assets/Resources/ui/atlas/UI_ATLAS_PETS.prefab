@@ -1,0 +1,1025 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1986052806025981
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4426507520552169}
+  - 114: {fileID: 114644953283146809}
+  m_Layer: 0
+  m_Name: UI_ATLAS_PETS
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4426507520552169
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1986052806025981}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &114644953283146809
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1986052806025981}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea9f040b2b6bd4bf069e31e0ace12f73, type: 3}
+  m_Name:
+  material: {fileID: 2100000, guid: bfa2309a320b9c94c89f9eff3dcb2bc0, type: 2}
+  sprites:
+  - name: frame_pet_earth
+    outer:
+      serializedVersion: 2
+      x: 384
+      y: 952
+      width: 94
+      height: 62
+    inner:
+      serializedVersion: 2
+      x: 384
+      y: 952
+      width: 94
+      height: 62
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: frame_pet_fire
+    outer:
+      serializedVersion: 2
+      x: 288
+      y: 952
+      width: 94
+      height: 62
+    inner:
+      serializedVersion: 2
+      x: 334
+      y: 982
+      width: 2
+      height: 1
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: frame_pet_lightning
+    outer:
+      serializedVersion: 2
+      x: 192
+      y: 952
+      width: 94
+      height: 62
+    inner:
+      serializedVersion: 2
+      x: 192
+      y: 952
+      width: 94
+      height: 62
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: frame_pet_metal
+    outer:
+      serializedVersion: 2
+      x: 96
+      y: 952
+      width: 94
+      height: 62
+    inner:
+      serializedVersion: 2
+      x: 96
+      y: 952
+      width: 94
+      height: 62
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: frame_pet_water
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 952
+      width: 94
+      height: 62
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 952
+      width: 94
+      height: 62
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Icon_treasure_pressed
+    outer:
+      serializedVersion: 2
+      x: 476
+      y: 714
+      width: 117
+      height: 117
+    inner:
+      serializedVersion: 2
+      x: 476
+      y: 714
+      width: 117
+      height: 117
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: overlay_bg
+    outer:
+      serializedVersion: 2
+      x: 119
+      y: 0
+      width: 20
+      height: 20
+    inner:
+      serializedVersion: 2
+      x: 119
+      y: 0
+      width: 20
+      height: 20
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PET_ALLIGATOR_FIRE_T01
+    outer:
+      serializedVersion: 2
+      x: 476
+      y: 595
+      width: 117
+      height: 117
+    inner:
+      serializedVersion: 2
+      x: 476
+      y: 595
+      width: 117
+      height: 117
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PET_BULL_FIRE_T01
+    outer:
+      serializedVersion: 2
+      x: 476
+      y: 476
+      width: 117
+      height: 117
+    inner:
+      serializedVersion: 2
+      x: 476
+      y: 476
+      width: 117
+      height: 117
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PET_BULL_FIRE_T02
+    outer:
+      serializedVersion: 2
+      x: 837
+      y: 357
+      width: 117
+      height: 117
+    inner:
+      serializedVersion: 2
+      x: 837
+      y: 357
+      width: 117
+      height: 117
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PET_BULL_LIGHTNING_T01
+    outer:
+      serializedVersion: 2
+      x: 718
+      y: 357
+      width: 117
+      height: 117
+    inner:
+      serializedVersion: 2
+      x: 718
+      y: 357
+      width: 117
+      height: 117
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PET_BULL_LIGHTNING_T02
+    outer:
+      serializedVersion: 2
+      x: 599
+      y: 357
+      width: 117
+      height: 117
+    inner:
+      serializedVersion: 2
+      x: 599
+      y: 357
+      width: 117
+      height: 117
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PET_BULL_METAL_T01
+    outer:
+      serializedVersion: 2
+      x: 480
+      y: 357
+      width: 117
+      height: 117
+    inner:
+      serializedVersion: 2
+      x: 480
+      y: 357
+      width: 117
+      height: 117
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PET_BULL_METAL_T02
+    outer:
+      serializedVersion: 2
+      x: 357
+      y: 833
+      width: 117
+      height: 117
+    inner:
+      serializedVersion: 2
+      x: 357
+      y: 833
+      width: 117
+      height: 117
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PET_BULL_NATURE_T01
+    outer:
+      serializedVersion: 2
+      x: 357
+      y: 714
+      width: 117
+      height: 117
+    inner:
+      serializedVersion: 2
+      x: 357
+      y: 714
+      width: 117
+      height: 117
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PET_BULL_NATURE_T02
+    outer:
+      serializedVersion: 2
+      x: 357
+      y: 595
+      width: 117
+      height: 117
+    inner:
+      serializedVersion: 2
+      x: 357
+      y: 595
+      width: 117
+      height: 117
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PET_BULL_WATER_T01
+    outer:
+      serializedVersion: 2
+      x: 357
+      y: 476
+      width: 117
+      height: 117
+    inner:
+      serializedVersion: 2
+      x: 357
+      y: 476
+      width: 117
+      height: 117
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PET_BULL_WATER_T02
+    outer:
+      serializedVersion: 2
+      x: 357
+      y: 357
+      width: 117
+      height: 117
+    inner:
+      serializedVersion: 2
+      x: 357
+      y: 357
+      width: 117
+      height: 117
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PET_DINOBIRD_LIGHTNING_T01
+    outer:
+      serializedVersion: 2
+      x: 860
+      y: 238
+      width: 117
+      height: 117
+    inner:
+      serializedVersion: 2
+      x: 860
+      y: 238
+      width: 117
+      height: 117
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PET_DODOBO_METAL_T01
+    outer:
+      serializedVersion: 2
+      x: 741
+      y: 238
+      width: 117
+      height: 117
+    inner:
+      serializedVersion: 2
+      x: 741
+      y: 238
+      width: 117
+      height: 117
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PET_DODOBO_METAL_T02
+    outer:
+      serializedVersion: 2
+      x: 622
+      y: 238
+      width: 117
+      height: 117
+    inner:
+      serializedVersion: 2
+      x: 622
+      y: 238
+      width: 117
+      height: 117
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PET_DODOBO_METAL_T03
+    outer:
+      serializedVersion: 2
+      x: 503
+      y: 238
+      width: 117
+      height: 117
+    inner:
+      serializedVersion: 2
+      x: 503
+      y: 238
+      width: 117
+      height: 117
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PET_EPIC_METAL_T01
+    outer:
+      serializedVersion: 2
+      x: 384
+      y: 238
+      width: 117
+      height: 117
+    inner:
+      serializedVersion: 2
+      x: 384
+      y: 238
+      width: 117
+      height: 117
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PET_GORRILLA_NATURE_T01
+    outer:
+      serializedVersion: 2
+      x: 238
+      y: 833
+      width: 117
+      height: 117
+    inner:
+      serializedVersion: 2
+      x: 238
+      y: 833
+      width: 117
+      height: 117
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PET_HYDRA_WATER_T01
+    outer:
+      serializedVersion: 2
+      x: 238
+      y: 714
+      width: 117
+      height: 117
+    inner:
+      serializedVersion: 2
+      x: 238
+      y: 714
+      width: 117
+      height: 117
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PET_KINGAPE_METAL_T01
+    outer:
+      serializedVersion: 2
+      x: 238
+      y: 595
+      width: 117
+      height: 117
+    inner:
+      serializedVersion: 2
+      x: 238
+      y: 595
+      width: 117
+      height: 117
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PET_LANDDRAGON_LIGHTNING_T01
+    outer:
+      serializedVersion: 2
+      x: 238
+      y: 476
+      width: 117
+      height: 117
+    inner:
+      serializedVersion: 2
+      x: 238
+      y: 476
+      width: 117
+      height: 117
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PET_LIZARD_LIGHTNING_T02
+    outer:
+      serializedVersion: 2
+      x: 238
+      y: 357
+      width: 117
+      height: 117
+    inner:
+      serializedVersion: 2
+      x: 238
+      y: 357
+      width: 117
+      height: 117
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PET_MANTARAY_METAL_T02
+    outer:
+      serializedVersion: 2
+      x: 238
+      y: 238
+      width: 117
+      height: 117
+    inner:
+      serializedVersion: 2
+      x: 238
+      y: 238
+      width: 117
+      height: 117
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PET_RAPTOR_FIRE_T01
+    outer:
+      serializedVersion: 2
+      x: 883
+      y: 119
+      width: 117
+      height: 117
+    inner:
+      serializedVersion: 2
+      x: 883
+      y: 119
+      width: 117
+      height: 117
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PET_RAPTOR_FIRE_T02
+    outer:
+      serializedVersion: 2
+      x: 764
+      y: 119
+      width: 117
+      height: 117
+    inner:
+      serializedVersion: 2
+      x: 764
+      y: 119
+      width: 117
+      height: 117
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PET_RAPTOR_LIGHTNING_T01
+    outer:
+      serializedVersion: 2
+      x: 645
+      y: 119
+      width: 117
+      height: 117
+    inner:
+      serializedVersion: 2
+      x: 645
+      y: 119
+      width: 117
+      height: 117
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PET_RAPTOR_LIGHTNING_T02
+    outer:
+      serializedVersion: 2
+      x: 526
+      y: 119
+      width: 117
+      height: 117
+    inner:
+      serializedVersion: 2
+      x: 526
+      y: 119
+      width: 117
+      height: 117
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PET_RAPTOR_METAL_T01
+    outer:
+      serializedVersion: 2
+      x: 407
+      y: 119
+      width: 117
+      height: 117
+    inner:
+      serializedVersion: 2
+      x: 407
+      y: 119
+      width: 117
+      height: 117
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PET_RAPTOR_METAL_T02
+    outer:
+      serializedVersion: 2
+      x: 288
+      y: 119
+      width: 117
+      height: 117
+    inner:
+      serializedVersion: 2
+      x: 288
+      y: 119
+      width: 117
+      height: 117
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PET_RAPTOR_NATURE_T01
+    outer:
+      serializedVersion: 2
+      x: 119
+      y: 833
+      width: 117
+      height: 117
+    inner:
+      serializedVersion: 2
+      x: 119
+      y: 833
+      width: 117
+      height: 117
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PET_RAPTOR_NATURE_T02
+    outer:
+      serializedVersion: 2
+      x: 119
+      y: 714
+      width: 117
+      height: 117
+    inner:
+      serializedVersion: 2
+      x: 119
+      y: 714
+      width: 117
+      height: 117
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PET_RAPTOR_WATER_T01
+    outer:
+      serializedVersion: 2
+      x: 119
+      y: 595
+      width: 117
+      height: 117
+    inner:
+      serializedVersion: 2
+      x: 119
+      y: 595
+      width: 117
+      height: 117
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PET_RAPTOR_WATER_T02
+    outer:
+      serializedVersion: 2
+      x: 119
+      y: 476
+      width: 117
+      height: 117
+    inner:
+      serializedVersion: 2
+      x: 119
+      y: 476
+      width: 117
+      height: 117
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PET_RHINO_FIRE_T02
+    outer:
+      serializedVersion: 2
+      x: 119
+      y: 357
+      width: 117
+      height: 117
+    inner:
+      serializedVersion: 2
+      x: 119
+      y: 357
+      width: 117
+      height: 117
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PET_SHARK_WATER_T02
+    outer:
+      serializedVersion: 2
+      x: 119
+      y: 238
+      width: 117
+      height: 117
+    inner:
+      serializedVersion: 2
+      x: 119
+      y: 238
+      width: 117
+      height: 117
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PET_STONEDRAGON_METAL_T01
+    outer:
+      serializedVersion: 2
+      x: 119
+      y: 119
+      width: 117
+      height: 117
+    inner:
+      serializedVersion: 2
+      x: 119
+      y: 119
+      width: 117
+      height: 117
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PET_TRICEP_NATURE_T02
+    outer:
+      serializedVersion: 2
+      x: 906
+      y: 0
+      width: 117
+      height: 117
+    inner:
+      serializedVersion: 2
+      x: 906
+      y: 0
+      width: 117
+      height: 117
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PET_WATERBIRD_WATER_T01
+    outer:
+      serializedVersion: 2
+      x: 787
+      y: 0
+      width: 117
+      height: 117
+    inner:
+      serializedVersion: 2
+      x: 787
+      y: 0
+      width: 117
+      height: 117
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PET_WINGCHICKEN_NATURE_T01
+    outer:
+      serializedVersion: 2
+      x: 668
+      y: 0
+      width: 117
+      height: 117
+    inner:
+      serializedVersion: 2
+      x: 668
+      y: 0
+      width: 117
+      height: 117
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PET_WINGSERPENT_FIRE_T01
+    outer:
+      serializedVersion: 2
+      x: 549
+      y: 0
+      width: 117
+      height: 117
+    inner:
+      serializedVersion: 2
+      x: 549
+      y: 0
+      width: 117
+      height: 117
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PET_WINGSERPENT_FIRE_T02
+    outer:
+      serializedVersion: 2
+      x: 430
+      y: 0
+      width: 117
+      height: 117
+    inner:
+      serializedVersion: 2
+      x: 430
+      y: 0
+      width: 117
+      height: 117
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PET_WINGSERPENT_LIGHTNING_T01
+    outer:
+      serializedVersion: 2
+      x: 311
+      y: 0
+      width: 117
+      height: 117
+    inner:
+      serializedVersion: 2
+      x: 311
+      y: 0
+      width: 117
+      height: 117
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PET_WINGSERPENT_LIGHTNING_T02
+    outer:
+      serializedVersion: 2
+      x: 192
+      y: 0
+      width: 117
+      height: 117
+    inner:
+      serializedVersion: 2
+      x: 192
+      y: 0
+      width: 117
+      height: 117
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PET_WINGSERPENT_METAL_T01
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 833
+      width: 117
+      height: 117
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 833
+      width: 117
+      height: 117
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PET_WINGSERPENT_METAL_T02
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 714
+      width: 117
+      height: 117
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 714
+      width: 117
+      height: 117
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PET_WINGSERPENT_NATURE_T01
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 595
+      width: 117
+      height: 117
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 595
+      width: 117
+      height: 117
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PET_WINGSERPENT_NATURE_T02
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 476
+      width: 117
+      height: 117
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 476
+      width: 117
+      height: 117
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PET_WINGSERPENT_WATER_T01
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 357
+      width: 117
+      height: 117
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 357
+      width: 117
+      height: 117
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PET_WINGSERPENT_WATER_T02
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 238
+      width: 117
+      height: 117
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 238
+      width: 117
+      height: 117
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PET_WOLF_FIRE_T01
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 119
+      width: 117
+      height: 117
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 119
+      width: 117
+      height: 117
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PET_WOLF_METAL_T01
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 117
+      height: 117
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 117
+      height: 117
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1986052806025981}
+  m_IsPrefabParent: 1
+  m_IsExploded: 0

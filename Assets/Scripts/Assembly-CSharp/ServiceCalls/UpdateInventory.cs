@@ -1,0 +1,64 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+namespace ServiceCalls
+{
+	public class UpdateInventory : Services.ServiceHandle
+	{
+		public string nubeeId = string.Empty;
+
+		public string deviceId = string.Empty;
+
+		public List<string> items;
+
+		public bool isTutorial;
+
+		public override IEnumerator Execute()
+		{
+			string cmd = GLOBAL.SRVCMD_UPDATE_INVENTORY;
+			WWWForm form = new WWWForm();
+			form.AddField("nubee_id", nubeeId);
+			form.AddField("device_id", deviceId);
+			long ts = TimeUtil.GetUnixEpochTime();
+			string dataForChecksum = nubeeId + "|" + deviceId + "|";
+			for (int it = 0; it < items.Count; it++)
+			{
+				form.AddField("item" + (it + 1), items[it]);
+				dataForChecksum = dataForChecksum + items[it] + "|";
+			}
+			form.AddField("is_tutorial", (!isTutorial) ? "0" : "1");
+			dataForChecksum = dataForChecksum + ((!isTutorial) ? "0" : "1") + "|";
+			string checksum = Services.GenerateChecksum(dataForChecksum + ts, Services.Key);
+			form.AddField("ts", ts.ToString());
+			form.AddField("checksum", checksum);
+			result = Services.ConnectionResults.Busy;
+			yield return SingletonComponent<JobManager>.Instance.StartCoroutine(WaitForQuery(cmd, form));
+			JSONObject jsonObj = null;
+			if (AnalyzeResultsAndBreak(out jsonObj))
+			{
+				if (IsNoInternet())
+				{
+					if (ShouldRetry())
+					{
+						Dbg.LogWarn("There was a connection-related problem. Auto-retrying...");
+						SingletonComponent<Services>.Instance.StartCoroutine(Execute());
+					}
+					else
+					{
+						PerformFailNoInternet();
+					}
+				}
+				else
+				{
+					PerformFail(result.ToString());
+				}
+			}
+			else
+			{
+				returnValue = null;
+				PerformSuccess();
+			}
+		}
+	}
+}

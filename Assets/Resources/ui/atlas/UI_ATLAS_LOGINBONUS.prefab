@@ -1,0 +1,244 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1328438302098067
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4875645699534076}
+  - 114: {fileID: 114561897276235697}
+  - 114: {fileID: 114069217553102962}
+  m_Layer: 0
+  m_Name: UI_ATLAS_LOGINBONUS
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4875645699534076
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1328438302098067}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &114561897276235697
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1328438302098067}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea9f040b2b6bd4bf069e31e0ace12f73, type: 3}
+  m_Name:
+  material: {fileID: 2100000, guid: 3b163d3cfaaa5ff49a1be3690eac4e20, type: 2}
+  sprites:
+  - name: Bonus_diamond
+    outer:
+      serializedVersion: 2
+      x: 180
+      y: 0
+      width: 142
+      height: 140
+    inner:
+      serializedVersion: 2
+      x: 180
+      y: 0
+      width: 142
+      height: 140
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Bonus_egg
+    outer:
+      serializedVersion: 2
+      x: 324
+      y: 0
+      width: 138
+      height: 134
+    inner:
+      serializedVersion: 2
+      x: 324
+      y: 0
+      width: 138
+      height: 134
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0.0074626864
+    paddingBottom: 0.0074626864
+  - name: Bonus_feather
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 171
+      width: 97
+      height: 91
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 171
+      width: 97
+      height: 91
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0.010989011
+    paddingBottom: 0.010989011
+  - name: Bonus_gold01
+    outer:
+      serializedVersion: 2
+      x: 99
+      y: 185
+      width: 87
+      height: 87
+    inner:
+      serializedVersion: 2
+      x: 99
+      y: 185
+      width: 87
+      height: 87
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Bonus_gold02
+    outer:
+      serializedVersion: 2
+      x: 324
+      y: 136
+      width: 113
+      height: 87
+    inner:
+      serializedVersion: 2
+      x: 324
+      y: 136
+      width: 113
+      height: 87
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Btn_claim
+    outer:
+      serializedVersion: 2
+      x: 180
+      y: 142
+      width: 107
+      height: 41
+    inner:
+      serializedVersion: 2
+      x: 180
+      y: 142
+      width: 107
+      height: 41
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Daily_stamp
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 178
+      height: 169
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 178
+      height: 169
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Login_normal
+    outer:
+      serializedVersion: 2
+      x: 439
+      y: 187
+      width: 55
+      height: 49
+    inner:
+      serializedVersion: 2
+      x: 454
+      y: 202
+      width: 25
+      height: 19
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Login_special
+    outer:
+      serializedVersion: 2
+      x: 439
+      y: 136
+      width: 55
+      height: 49
+    inner:
+      serializedVersion: 2
+      x: 454
+      y: 151
+      width: 25
+      height: 19
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Txt_day5
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 264
+      width: 82
+      height: 32
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 264
+      width: 82
+      height: 32
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!114 &114069217553102962
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1328438302098067}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39fbd7046c824527a419c7fa61f91e44, type: 3}
+  m_Name:
+  mMat: {fileID: 0}
+  mColor: {r: 1, g: 1, b: 1, a: 1}
+  mPivot: 4
+  mDepth: 0
+  mAtlas: {fileID: 0}
+  mSpriteName:
+  mFillCenter: 1
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1328438302098067}
+  m_IsPrefabParent: 1
+  m_IsExploded: 0

@@ -1,0 +1,737 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1879309525618875
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4167659627103486}
+  - 114: {fileID: 114566978519535930}
+  - 114: {fileID: 114553830923222084}
+  m_Layer: 0
+  m_Name: GLOBAL_INVENTORY_CELL_ATLAS
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4167659627103486
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1879309525618875}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &114566978519535930
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1879309525618875}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea9f040b2b6bd4bf069e31e0ace12f73, type: 3}
+  m_Name:
+  material: {fileID: 2100000, guid: 1db5935febf081c44bfbc4255d9e8719, type: 2}
+  sprites:
+  - name: Box_empty
+    outer:
+      serializedVersion: 2
+      x: 894
+      y: 258
+      width: 100
+      height: 100
+    inner:
+      serializedVersion: 2
+      x: 894
+      y: 258
+      width: 100
+      height: 100
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: btn_set
+    outer:
+      serializedVersion: 2
+      x: 948
+      y: 426
+      width: 56
+      height: 56
+    inner:
+      serializedVersion: 2
+      x: 974
+      y: 452
+      width: 4
+      height: 4
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: btn_setarrow
+    outer:
+      serializedVersion: 2
+      x: 41
+      y: 975
+      width: 34
+      height: 36
+    inner:
+      serializedVersion: 2
+      x: 41
+      y: 975
+      width: 34
+      height: 36
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: check_box
+    outer:
+      serializedVersion: 2
+      x: 77
+      y: 975
+      width: 35
+      height: 35
+    inner:
+      serializedVersion: 2
+      x: 77
+      y: 975
+      width: 35
+      height: 35
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: check_icon
+    outer:
+      serializedVersion: 2
+      x: 166
+      y: 975
+      width: 28
+      height: 23
+    inner:
+      serializedVersion: 2
+      x: 166
+      y: 975
+      width: 28
+      height: 23
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: empty_space
+    outer:
+      serializedVersion: 2
+      x: 333
+      y: 238
+      width: 117
+      height: 117
+    inner:
+      serializedVersion: 2
+      x: 333
+      y: 238
+      width: 117
+      height: 117
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: equipped_icon
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 975
+      width: 39
+      height: 39
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 975
+      width: 39
+      height: 39
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: frame_fire_actual
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 780
+      width: 193
+      height: 193
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 780
+      width: 193
+      height: 193
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: frame_fire_med
+    outer:
+      serializedVersion: 2
+      x: 817
+      y: 119
+      width: 117
+      height: 117
+    inner:
+      serializedVersion: 2
+      x: 817
+      y: 119
+      width: 117
+      height: 117
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: frame_fire_small
+    outer:
+      serializedVersion: 2
+      x: 776
+      y: 340
+      width: 84
+      height: 84
+    inner:
+      serializedVersion: 2
+      x: 776
+      y: 340
+      width: 84
+      height: 84
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: frame_lightning_actual
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 585
+      width: 193
+      height: 193
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 585
+      width: 193
+      height: 193
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: frame_lightning_med
+    outer:
+      serializedVersion: 2
+      x: 698
+      y: 119
+      width: 117
+      height: 117
+    inner:
+      serializedVersion: 2
+      x: 698
+      y: 119
+      width: 117
+      height: 117
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: frame_lightning_small
+    outer:
+      serializedVersion: 2
+      x: 690
+      y: 340
+      width: 84
+      height: 84
+    inner:
+      serializedVersion: 2
+      x: 690
+      y: 340
+      width: 84
+      height: 84
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: frame_metal_actual
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 390
+      width: 193
+      height: 193
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 390
+      width: 193
+      height: 193
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: frame_metal_med
+    outer:
+      serializedVersion: 2
+      x: 579
+      y: 119
+      width: 117
+      height: 117
+    inner:
+      serializedVersion: 2
+      x: 579
+      y: 119
+      width: 117
+      height: 117
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: frame_metal_small
+    outer:
+      serializedVersion: 2
+      x: 936
+      y: 172
+      width: 84
+      height: 84
+    inner:
+      serializedVersion: 2
+      x: 936
+      y: 172
+      width: 84
+      height: 84
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: frame_nature_actual
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 195
+      width: 193
+      height: 193
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 195
+      width: 193
+      height: 193
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: frame_nature_med
+    outer:
+      serializedVersion: 2
+      x: 460
+      y: 119
+      width: 117
+      height: 117
+    inner:
+      serializedVersion: 2
+      x: 460
+      y: 119
+      width: 117
+      height: 117
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: frame_nature_small
+    outer:
+      serializedVersion: 2
+      x: 936
+      y: 86
+      width: 84
+      height: 84
+    inner:
+      serializedVersion: 2
+      x: 936
+      y: 86
+      width: 84
+      height: 84
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: frame_pet_fire
+    outer:
+      serializedVersion: 2
+      x: 214
+      y: 127
+      width: 117
+      height: 117
+    inner:
+      serializedVersion: 2
+      x: 214
+      y: 127
+      width: 117
+      height: 117
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: frame_pet_lighting
+    outer:
+      serializedVersion: 2
+      x: 341
+      y: 119
+      width: 117
+      height: 117
+    inner:
+      serializedVersion: 2
+      x: 341
+      y: 119
+      width: 117
+      height: 117
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: frame_pet_metal
+    outer:
+      serializedVersion: 2
+      x: 817
+      y: 0
+      width: 117
+      height: 117
+    inner:
+      serializedVersion: 2
+      x: 817
+      y: 0
+      width: 117
+      height: 117
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: frame_pet_nature
+    outer:
+      serializedVersion: 2
+      x: 698
+      y: 0
+      width: 117
+      height: 117
+    inner:
+      serializedVersion: 2
+      x: 698
+      y: 0
+      width: 117
+      height: 117
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: frame_pet_water
+    outer:
+      serializedVersion: 2
+      x: 579
+      y: 0
+      width: 117
+      height: 117
+    inner:
+      serializedVersion: 2
+      x: 579
+      y: 0
+      width: 117
+      height: 117
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: frame_selected
+    outer:
+      serializedVersion: 2
+      x: 214
+      y: 0
+      width: 125
+      height: 125
+    inner:
+      serializedVersion: 2
+      x: 214
+      y: 0
+      width: 125
+      height: 125
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: frame_water_actual
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 193
+      height: 193
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 193
+      height: 193
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: frame_water_med
+    outer:
+      serializedVersion: 2
+      x: 460
+      y: 0
+      width: 117
+      height: 117
+    inner:
+      serializedVersion: 2
+      x: 460
+      y: 0
+      width: 117
+      height: 117
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: frame_water_small
+    outer:
+      serializedVersion: 2
+      x: 936
+      y: 0
+      width: 84
+      height: 84
+    inner:
+      serializedVersion: 2
+      x: 936
+      y: 0
+      width: 84
+      height: 84
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Gold_Lv1
+    outer:
+      serializedVersion: 2
+      x: 571
+      y: 238
+      width: 117
+      height: 117
+    inner:
+      serializedVersion: 2
+      x: 571
+      y: 238
+      width: 117
+      height: 117
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Gold_Lv2
+    outer:
+      serializedVersion: 2
+      x: 452
+      y: 238
+      width: 117
+      height: 117
+    inner:
+      serializedVersion: 2
+      x: 452
+      y: 238
+      width: 117
+      height: 117
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Gold_Lv3
+    outer:
+      serializedVersion: 2
+      x: 214
+      y: 246
+      width: 117
+      height: 117
+    inner:
+      serializedVersion: 2
+      x: 214
+      y: 246
+      width: 117
+      height: 101
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Icon_Pet
+    outer:
+      serializedVersion: 2
+      x: 792
+      y: 238
+      width: 100
+      height: 100
+    inner:
+      serializedVersion: 2
+      x: 792
+      y: 238
+      width: 100
+      height: 100
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Icon_Ring
+    outer:
+      serializedVersion: 2
+      x: 690
+      y: 238
+      width: 100
+      height: 100
+    inner:
+      serializedVersion: 2
+      x: 690
+      y: 238
+      width: 100
+      height: 100
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: new_txt
+    outer:
+      serializedVersion: 2
+      x: 114
+      y: 975
+      width: 50
+      height: 27
+    inner:
+      serializedVersion: 2
+      x: 114
+      y: 975
+      width: 50
+      height: 27
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: no_star
+    outer:
+      serializedVersion: 2
+      x: 190
+      y: 1000
+      width: 22
+      height: 21
+    inner:
+      serializedVersion: 2
+      x: 190
+      y: 1000
+      width: 22
+      height: 21
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: overlay_black
+    outer:
+      serializedVersion: 2
+      x: 948
+      y: 360
+      width: 64
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 948
+      y: 360
+      width: 64
+      height: 64
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: red_overlay
+    outer:
+      serializedVersion: 2
+      x: 341
+      y: 0
+      width: 117
+      height: 117
+    inner:
+      serializedVersion: 2
+      x: 341
+      y: 0
+      width: 117
+      height: 117
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: star
+    outer:
+      serializedVersion: 2
+      x: 166
+      y: 1000
+      width: 22
+      height: 21
+    inner:
+      serializedVersion: 2
+      x: 166
+      y: 1000
+      width: 22
+      height: 21
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: White_Flash
+    outer:
+      serializedVersion: 2
+      x: 862
+      y: 360
+      width: 84
+      height: 84
+    inner:
+      serializedVersion: 2
+      x: 862
+      y: 360
+      width: 84
+      height: 84
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!114 &114553830923222084
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1879309525618875}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39fbd7046c824527a419c7fa61f91e44, type: 3}
+  m_Name:
+  mMat: {fileID: 0}
+  mColor: {r: 1, g: 1, b: 1, a: 1}
+  mPivot: 4
+  mDepth: 0
+  mAtlas: {fileID: 0}
+  mSpriteName:
+  mFillCenter: 1
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1879309525618875}
+  m_IsPrefabParent: 1
+  m_IsExploded: 0

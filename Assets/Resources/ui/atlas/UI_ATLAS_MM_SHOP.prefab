@@ -1,0 +1,669 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1011980787067655
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4325371289252036}
+  - 114: {fileID: 114394539725098587}
+  - 114: {fileID: 114435671222221024}
+  m_Layer: 0
+  m_Name: UI_ATLAS_MM_SHOP
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4325371289252036
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1011980787067655}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &114394539725098587
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1011980787067655}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea9f040b2b6bd4bf069e31e0ace12f73, type: 3}
+  m_Name:
+  material: {fileID: 2100000, guid: a6efd651a52ee4043a7cf7b485b44b4f, type: 2}
+  sprites:
+  - name: 3parts_banner
+    outer:
+      serializedVersion: 2
+      x: 456
+      y: 962
+      width: 134
+      height: 56
+    inner:
+      serializedVersion: 2
+      x: 521
+      y: 962
+      width: 4
+      height: 56
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: add_bagslots_icon
+    outer:
+      serializedVersion: 2
+      x: 882
+      y: 150
+      width: 140
+      height: 117
+    inner:
+      serializedVersion: 2
+      x: 882
+      y: 150
+      width: 140
+      height: 117
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: battle_point_icon
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 642
+      width: 181
+      height: 179
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 642
+      width: 181
+      height: 179
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: buy_diamond_icon
+    outer:
+      serializedVersion: 2
+      x: 630
+      y: 626
+      width: 170
+      height: 139
+    inner:
+      serializedVersion: 2
+      x: 630
+      y: 626
+      width: 170
+      height: 139
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: buy_diamonds_slot1
+    outer:
+      serializedVersion: 2
+      x: 705
+      y: 148
+      width: 175
+      height: 146
+    inner:
+      serializedVersion: 2
+      x: 705
+      y: 148
+      width: 175
+      height: 146
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: buy_diamonds_slot2
+    outer:
+      serializedVersion: 2
+      x: 708
+      y: 0
+      width: 175
+      height: 146
+    inner:
+      serializedVersion: 2
+      x: 708
+      y: 0
+      width: 175
+      height: 146
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: buy_diamonds_slot3
+    outer:
+      serializedVersion: 2
+      x: 531
+      y: 814
+      width: 175
+      height: 146
+    inner:
+      serializedVersion: 2
+      x: 531
+      y: 814
+      width: 175
+      height: 144
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: buy_diamonds_slot4
+    outer:
+      serializedVersion: 2
+      x: 354
+      y: 814
+      width: 175
+      height: 146
+    inner:
+      serializedVersion: 2
+      x: 354
+      y: 814
+      width: 175
+      height: 146
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: buy_diamonds_slot5
+    outer:
+      serializedVersion: 2
+      x: 360
+      y: 642
+      width: 175
+      height: 146
+    inner:
+      serializedVersion: 2
+      x: 360
+      y: 642
+      width: 175
+      height: 146
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: buy_diamonds_slot6
+    outer:
+      serializedVersion: 2
+      x: 183
+      y: 642
+      width: 175
+      height: 146
+    inner:
+      serializedVersion: 2
+      x: 183
+      y: 642
+      width: 175
+      height: 146
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: buy_diamonds_slot7
+    outer:
+      serializedVersion: 2
+      x: 177
+      y: 823
+      width: 175
+      height: 146
+    inner:
+      serializedVersion: 2
+      x: 177
+      y: 823
+      width: 175
+      height: 146
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: buy_diamonds_slot8
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 823
+      width: 175
+      height: 146
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 823
+      width: 175
+      height: 146
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: diamond_panel
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1012
+      width: 12
+      height: 12
+    inner:
+      serializedVersion: 2
+      x: 2
+      y: 1014
+      width: 8
+      height: 8
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: exchange_dragonpoints
+    outer:
+      serializedVersion: 2
+      x: 482
+      y: 461
+      width: 170
+      height: 139
+    inner:
+      serializedVersion: 2
+      x: 482
+      y: 461
+      width: 170
+      height: 139
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: exchange_holydiamonds
+    outer:
+      serializedVersion: 2
+      x: 482
+      y: 320
+      width: 170
+      height: 139
+    inner:
+      serializedVersion: 2
+      x: 482
+      y: 320
+      width: 170
+      height: 139
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: frame_gold
+    outer:
+      serializedVersion: 2
+      x: 592
+      y: 962
+      width: 122
+      height: 60
+    inner:
+      serializedVersion: 2
+      x: 649
+      y: 987
+      width: 8
+      height: 10
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: get_stamina_icon
+    outer:
+      serializedVersion: 2
+      x: 482
+      y: 142
+      width: 117
+      height: 176
+    inner:
+      serializedVersion: 2
+      x: 482
+      y: 142
+      width: 117
+      height: 176
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: img_discount_cns
+    outer:
+      serializedVersion: 2
+      x: 885
+      y: 75
+      width: 73
+      height: 73
+    inner:
+      serializedVersion: 2
+      x: 885
+      y: 75
+      width: 73
+      height: 73
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: img_discount_cnt
+    outer:
+      serializedVersion: 2
+      x: 885
+      y: 0
+      width: 73
+      height: 73
+    inner:
+      serializedVersion: 2
+      x: 885
+      y: 0
+      width: 73
+      height: 73
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: img_discount_en
+    outer:
+      serializedVersion: 2
+      x: 537
+      y: 67
+      width: 73
+      height: 73
+    inner:
+      serializedVersion: 2
+      x: 537
+      y: 67
+      width: 73
+      height: 73
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: img_discount_jp
+    outer:
+      serializedVersion: 2
+      x: 630
+      y: 75
+      width: 73
+      height: 73
+    inner:
+      serializedVersion: 2
+      x: 630
+      y: 75
+      width: 73
+      height: 73
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: img_discount_kr
+    outer:
+      serializedVersion: 2
+      x: 630
+      y: 0
+      width: 73
+      height: 73
+    inner:
+      serializedVersion: 2
+      x: 630
+      y: 0
+      width: 73
+      height: 73
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: pattern_deco
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 971
+      width: 156
+      height: 39
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 971
+      width: 156
+      height: 39
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: price_panel
+    outer:
+      serializedVersion: 2
+      x: 537
+      y: 0
+      width: 89
+      height: 65
+    inner:
+      serializedVersion: 2
+      x: 577
+      y: 0
+      width: 2
+      height: 65
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: shop_BG
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 480
+      height: 640
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 480
+      height: 640
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: txt_bestvalue_cns
+    outer:
+      serializedVersion: 2
+      x: 482
+      y: 602
+      width: 147
+      height: 22
+    inner:
+      serializedVersion: 2
+      x: 482
+      y: 602
+      width: 147
+      height: 22
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: txt_bestvalue_cnt
+    outer:
+      serializedVersion: 2
+      x: 482
+      y: 602
+      width: 147
+      height: 22
+    inner:
+      serializedVersion: 2
+      x: 482
+      y: 602
+      width: 147
+      height: 22
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: txt_bestvalue_en
+    outer:
+      serializedVersion: 2
+      x: 601
+      y: 296
+      width: 147
+      height: 22
+    inner:
+      serializedVersion: 2
+      x: 601
+      y: 296
+      width: 147
+      height: 22
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: txt_bestvalue_jp
+    outer:
+      serializedVersion: 2
+      x: 481
+      y: 790
+      width: 147
+      height: 22
+    inner:
+      serializedVersion: 2
+      x: 481
+      y: 790
+      width: 147
+      height: 22
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: txt_bestvalue_kr
+    outer:
+      serializedVersion: 2
+      x: 332
+      y: 790
+      width: 147
+      height: 22
+    inner:
+      serializedVersion: 2
+      x: 332
+      y: 790
+      width: 147
+      height: 22
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: txt_mostpop_cns
+    outer:
+      serializedVersion: 2
+      x: 183
+      y: 790
+      width: 147
+      height: 22
+    inner:
+      serializedVersion: 2
+      x: 183
+      y: 790
+      width: 147
+      height: 22
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: txt_mostpop_cnt
+    outer:
+      serializedVersion: 2
+      x: 307
+      y: 995
+      width: 147
+      height: 22
+    inner:
+      serializedVersion: 2
+      x: 307
+      y: 995
+      width: 147
+      height: 22
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: txt_mostpop_en
+    outer:
+      serializedVersion: 2
+      x: 307
+      y: 971
+      width: 147
+      height: 22
+    inner:
+      serializedVersion: 2
+      x: 307
+      y: 971
+      width: 147
+      height: 22
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: txt_mostpop_jp
+    outer:
+      serializedVersion: 2
+      x: 158
+      y: 995
+      width: 147
+      height: 22
+    inner:
+      serializedVersion: 2
+      x: 158
+      y: 995
+      width: 147
+      height: 22
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: txt_mostpop_kr
+    outer:
+      serializedVersion: 2
+      x: 158
+      y: 971
+      width: 147
+      height: 22
+    inner:
+      serializedVersion: 2
+      x: 158
+      y: 971
+      width: 147
+      height: 22
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!114 &114435671222221024
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1011980787067655}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39fbd7046c824527a419c7fa61f91e44, type: 3}
+  m_Name:
+  mMat: {fileID: 0}
+  mColor: {r: 1, g: 1, b: 1, a: 1}
+  mPivot: 4
+  mDepth: 0
+  mAtlas: {fileID: 0}
+  mSpriteName:
+  mFillCenter: 1
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1011980787067655}
+  m_IsPrefabParent: 1
+  m_IsExploded: 0

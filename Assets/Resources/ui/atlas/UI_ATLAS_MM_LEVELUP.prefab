@@ -1,0 +1,532 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1316618646613587
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4816443586044190}
+  - 114: {fileID: 114969484635391141}
+  m_Layer: 0
+  m_Name: UI_ATLAS_MM_LEVELUP
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4816443586044190
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1316618646613587}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &114969484635391141
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1316618646613587}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea9f040b2b6bd4bf069e31e0ace12f73, type: 3}
+  m_Name:
+  material: {fileID: 2100000, guid: b1cbf8d9ab637d24f9c2287cde467ea1, type: 2}
+  sprites:
+  - name: armor_icon
+    outer:
+      serializedVersion: 2
+      x: 57
+      y: 442
+      width: 50
+      height: 49
+    inner:
+      serializedVersion: 2
+      x: 57
+      y: 442
+      width: 50
+      height: 49
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0.10204082
+    paddingBottom: 0.10204082
+  - name: arrow_result
+    outer:
+      serializedVersion: 2
+      x: 109
+      y: 442
+      width: 24
+      height: 20
+    inner:
+      serializedVersion: 2
+      x: 109
+      y: 442
+      width: 24
+      height: 20
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: attack_icon
+    outer:
+      serializedVersion: 2
+      x: 715
+      y: 251
+      width: 50
+      height: 51
+    inner:
+      serializedVersion: 2
+      x: 715
+      y: 251
+      width: 50
+      height: 51
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0.078431375
+    paddingBottom: 0.078431375
+  - name: bg_black_trans
+    outer:
+      serializedVersion: 2
+      x: 811
+      y: 251
+      width: 20
+      height: 20
+    inner:
+      serializedVersion: 2
+      x: 814
+      y: 254
+      width: 14
+      height: 14
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: black_gradient
+    outer:
+      serializedVersion: 2
+      x: 1001
+      y: 0
+      width: 19
+      height: 154
+    inner:
+      serializedVersion: 2
+      x: 1001
+      y: 0
+      width: 19
+      height: 154
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: blink
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 442
+      width: 55
+      height: 56
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 442
+      width: 55
+      height: 56
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: critical_icon
+    outer:
+      serializedVersion: 2
+      x: 767
+      y: 251
+      width: 42
+      height: 59
+    inner:
+      serializedVersion: 2
+      x: 767
+      y: 251
+      width: 42
+      height: 59
+    paddingLeft: 0.0952381
+    paddingRight: 0.0952381
+    paddingTop: 0
+    paddingBottom: 0
+  - name: deco_table
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 395
+      width: 150
+      height: 45
+    inner:
+      serializedVersion: 2
+      x: 59
+      y: 401
+      width: 35
+      height: 28
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: frame_deco
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 147
+      width: 316
+      height: 55
+    inner:
+      serializedVersion: 2
+      x: 204
+      y: 147
+      width: 7
+      height: 55
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: gold_frame_shop
+    outer:
+      serializedVersion: 2
+      x: 545
+      y: 60
+      width: 166
+      height: 68
+    inner:
+      serializedVersion: 2
+      x: 626
+      y: 91
+      width: 4
+      height: 5
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: gradient_divider
+    outer:
+      serializedVersion: 2
+      x: 818
+      y: 375
+      width: 3
+      height: 96
+    inner:
+      serializedVersion: 2
+      x: 819
+      y: 375
+      width: 1
+      height: 96
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: health_icon
+    outer:
+      serializedVersion: 2
+      x: 310
+      y: 395
+      width: 50
+      height: 43
+    inner:
+      serializedVersion: 2
+      x: 310
+      y: 395
+      width: 50
+      height: 43
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0.18604651
+    paddingBottom: 0.18604651
+  - name: level_up_0
+    outer:
+      serializedVersion: 2
+      x: 715
+      y: 60
+      width: 138
+      height: 189
+    inner:
+      serializedVersion: 2
+      x: 715
+      y: 60
+      width: 138
+      height: 189
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: level_up_1
+    outer:
+      serializedVersion: 2
+      x: 712
+      y: 319
+      width: 104
+      height: 185
+    inner:
+      serializedVersion: 2
+      x: 712
+      y: 319
+      width: 104
+      height: 185
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: level_up_2
+    outer:
+      serializedVersion: 2
+      x: 570
+      y: 130
+      width: 143
+      height: 187
+    inner:
+      serializedVersion: 2
+      x: 570
+      y: 130
+      width: 143
+      height: 187
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: level_up_3
+    outer:
+      serializedVersion: 2
+      x: 433
+      y: 189
+      width: 135
+      height: 189
+    inner:
+      serializedVersion: 2
+      x: 433
+      y: 189
+      width: 135
+      height: 189
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: level_up_4
+    outer:
+      serializedVersion: 2
+      x: 570
+      y: 319
+      width: 140
+      height: 186
+    inner:
+      serializedVersion: 2
+      x: 570
+      y: 319
+      width: 140
+      height: 186
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: level_up_5
+    outer:
+      serializedVersion: 2
+      x: 855
+      y: 0
+      width: 144
+      height: 186
+    inner:
+      serializedVersion: 2
+      x: 855
+      y: 0
+      width: 144
+      height: 186
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: level_up_6
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 204
+      width: 146
+      height: 189
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 204
+      width: 146
+      height: 189
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: level_up_7
+    outer:
+      serializedVersion: 2
+      x: 855
+      y: 188
+      width: 145
+      height: 185
+    inner:
+      serializedVersion: 2
+      x: 855
+      y: 188
+      width: 145
+      height: 185
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: level_up_8
+    outer:
+      serializedVersion: 2
+      x: 293
+      y: 204
+      width: 138
+      height: 189
+    inner:
+      serializedVersion: 2
+      x: 293
+      y: 204
+      width: 138
+      height: 189
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: level_up_9
+    outer:
+      serializedVersion: 2
+      x: 148
+      y: 204
+      width: 143
+      height: 189
+    inner:
+      serializedVersion: 2
+      x: 148
+      y: 204
+      width: 143
+      height: 189
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Level_up_text
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 543
+      height: 145
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 543
+      height: 145
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: pattern_deco
+    outer:
+      serializedVersion: 2
+      x: 152
+      y: 395
+      width: 156
+      height: 39
+    inner:
+      serializedVersion: 2
+      x: 152
+      y: 395
+      width: 156
+      height: 39
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: square_dot
+    outer:
+      serializedVersion: 2
+      x: 504
+      y: 147
+      width: 25
+      height: 25
+    inner:
+      serializedVersion: 2
+      x: 504
+      y: 147
+      width: 25
+      height: 25
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: stamina_icon
+    outer:
+      serializedVersion: 2
+      x: 1001
+      y: 156
+      width: 16
+      height: 24
+    inner:
+      serializedVersion: 2
+      x: 1001
+      y: 156
+      width: 16
+      height: 24
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Text_levelup
+    outer:
+      serializedVersion: 2
+      x: 545
+      y: 0
+      width: 298
+      height: 58
+    inner:
+      serializedVersion: 2
+      x: 545
+      y: 0
+      width: 298
+      height: 58
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: title_box
+    outer:
+      serializedVersion: 2
+      x: 318
+      y: 147
+      width: 184
+      height: 40
+    inner:
+      serializedVersion: 2
+      x: 370
+      y: 147
+      width: 109
+      height: 40
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1316618646613587}
+  m_IsPrefabParent: 1
+  m_IsExploded: 0

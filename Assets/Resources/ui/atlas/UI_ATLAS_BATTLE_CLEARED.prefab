@@ -1,0 +1,1331 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1840380901471428
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4701156009072906}
+  - 114: {fileID: 114272900805557475}
+  m_Layer: 0
+  m_Name: UI_ATLAS_BATTLE_CLEARED
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4701156009072906
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1840380901471428}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &114272900805557475
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1840380901471428}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea9f040b2b6bd4bf069e31e0ace12f73, type: 3}
+  m_Name:
+  material: {fileID: 2100000, guid: a0a8ac354b002304587c28dd5b0215f3, type: 2}
+  sprites:
+  - name: arrow
+    outer:
+      serializedVersion: 2
+      x: 999
+      y: 0
+      width: 25
+      height: 21
+    inner:
+      serializedVersion: 2
+      x: 999
+      y: 0
+      width: 25
+      height: 21
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: bar_loading_container
+    outer:
+      serializedVersion: 2
+      x: 738
+      y: 560
+      width: 155
+      height: 25
+    inner:
+      serializedVersion: 2
+      x: 808
+      y: 560
+      width: 15
+      height: 25
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: bar_reward_empty
+    outer:
+      serializedVersion: 2
+      x: 895
+      y: 560
+      width: 5
+      height: 14
+    inner:
+      serializedVersion: 2
+      x: 895
+      y: 560
+      width: 5
+      height: 14
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: bar_reward_fill
+    outer:
+      serializedVersion: 2
+      x: 370
+      y: 450
+      width: 5
+      height: 14
+    inner:
+      serializedVersion: 2
+      x: 370
+      y: 450
+      width: 5
+      height: 14
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: bg_black_trans
+    outer:
+      serializedVersion: 2
+      x: 188
+      y: 894
+      width: 20
+      height: 20
+    inner:
+      serializedVersion: 2
+      x: 188
+      y: 894
+      width: 20
+      height: 20
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Bg_popup_hilite_line
+    outer:
+      serializedVersion: 2
+      x: 377
+      y: 272
+      width: 556
+      height: 2
+    inner:
+      serializedVersion: 2
+      x: 377
+      y: 272
+      width: 556
+      height: 2
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: bg_title
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 897
+      height: 93
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 897
+      height: 93
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: bgline_text
+    outer:
+      serializedVersion: 2
+      x: 377
+      y: 124
+      width: 424
+      height: 52
+    inner:
+      serializedVersion: 2
+      x: 586
+      y: 134
+      width: 6
+      height: 12
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: black_grad
+    outer:
+      serializedVersion: 2
+      x: 899
+      y: 54
+      width: 100
+      height: 40
+    inner:
+      serializedVersion: 2
+      x: 899
+      y: 54
+      width: 100
+      height: 40
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: blink
+    outer:
+      serializedVersion: 2
+      x: 969
+      y: 565
+      width: 55
+      height: 56
+    inner:
+      serializedVersion: 2
+      x: 969
+      y: 565
+      width: 55
+      height: 56
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: blue_btn2
+    outer:
+      serializedVersion: 2
+      x: 738
+      y: 604
+      width: 98
+      height: 52
+    inner:
+      serializedVersion: 2
+      x: 750
+      y: 624
+      width: 74
+      height: 18
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: bony_line
+    outer:
+      serializedVersion: 2
+      x: 369
+      y: 910
+      width: 138
+      height: 10
+    inner:
+      serializedVersion: 2
+      x: 429
+      y: 910
+      width: 18
+      height: 10
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Btn_upgrade
+    outer:
+      serializedVersion: 2
+      x: 935
+      y: 727
+      width: 67
+      height: 67
+    inner:
+      serializedVersion: 2
+      x: 935
+      y: 727
+      width: 67
+      height: 67
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: chest
+    outer:
+      serializedVersion: 2
+      x: 797
+      y: 276
+      width: 180
+      height: 160
+    inner:
+      serializedVersion: 2
+      x: 797
+      y: 276
+      width: 180
+      height: 160
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0.0125
+  - name: Chest_Lv1
+    outer:
+      serializedVersion: 2
+      x: 369
+      y: 466
+      width: 208
+      height: 188
+    inner:
+      serializedVersion: 2
+      x: 369
+      y: 466
+      width: 208
+      height: 188
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Chest_Lv2
+    outer:
+      serializedVersion: 2
+      x: 587
+      y: 276
+      width: 208
+      height: 188
+    inner:
+      serializedVersion: 2
+      x: 587
+      y: 276
+      width: 208
+      height: 188
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Chest_Lv3
+    outer:
+      serializedVersion: 2
+      x: 377
+      y: 276
+      width: 208
+      height: 188
+    inner:
+      serializedVersion: 2
+      x: 377
+      y: 276
+      width: 208
+      height: 188
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Chest_Lv4
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 704
+      width: 208
+      height: 188
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 704
+      width: 208
+      height: 188
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Chest_Lv5
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 514
+      width: 208
+      height: 188
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 514
+      width: 208
+      height: 188
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: cleared_text
+    outer:
+      serializedVersion: 2
+      x: 527
+      y: 791
+      width: 286
+      height: 54
+    inner:
+      serializedVersion: 2
+      x: 527
+      y: 791
+      width: 286
+      height: 54
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: coin
+    outer:
+      serializedVersion: 2
+      x: 902
+      y: 494
+      width: 70
+      height: 69
+    inner:
+      serializedVersion: 2
+      x: 902
+      y: 494
+      width: 70
+      height: 69
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: diamond_glow
+    outer:
+      serializedVersion: 2
+      x: 856
+      y: 247
+      width: 23
+      height: 23
+    inner:
+      serializedVersion: 2
+      x: 856
+      y: 247
+      width: 23
+      height: 23
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: dungeon_red_text
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 894
+      width: 186
+      height: 60
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 894
+      width: 186
+      height: 60
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: dungeon_text
+    outer:
+      serializedVersion: 2
+      x: 797
+      y: 438
+      width: 180
+      height: 54
+    inner:
+      serializedVersion: 2
+      x: 797
+      y: 438
+      width: 180
+      height: 54
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: generic_frame01
+    outer:
+      serializedVersion: 2
+      x: 738
+      y: 494
+      width: 162
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 817
+      y: 529
+      width: 4
+      height: 9
+    paddingLeft: 0.012345679
+    paddingRight: 0.012345679
+    paddingTop: 0.015625
+    paddingBottom: 0.046875
+  - name: green_btn
+    outer:
+      serializedVersion: 2
+      x: 899
+      y: 0
+      width: 98
+      height: 52
+    inner:
+      serializedVersion: 2
+      x: 911
+      y: 20
+      width: 74
+      height: 18
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_attack
+    outer:
+      serializedVersion: 2
+      x: 998
+      y: 796
+      width: 26
+      height: 27
+    inner:
+      serializedVersion: 2
+      x: 998
+      y: 796
+      width: 26
+      height: 27
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0.074074075
+    paddingBottom: 0.074074075
+  - name: icon_critical
+    outer:
+      serializedVersion: 2
+      x: 815
+      y: 791
+      width: 22
+      height: 31
+    inner:
+      serializedVersion: 2
+      x: 815
+      y: 791
+      width: 22
+      height: 31
+    paddingLeft: 0.09090909
+    paddingRight: 0.09090909
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_defense
+    outer:
+      serializedVersion: 2
+      x: 803
+      y: 124
+      width: 26
+      height: 27
+    inner:
+      serializedVersion: 2
+      x: 803
+      y: 124
+      width: 26
+      height: 27
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0.074074075
+    paddingBottom: 0.074074075
+  - name: Icon_dragonpoint
+    outer:
+      serializedVersion: 2
+      x: 798
+      y: 658
+      width: 69
+      height: 69
+    inner:
+      serializedVersion: 2
+      x: 798
+      y: 658
+      width: 69
+      height: 69
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Icon_gacha
+    outer:
+      serializedVersion: 2
+      x: 864
+      y: 869
+      width: 68
+      height: 68
+    inner:
+      serializedVersion: 2
+      x: 864
+      y: 869
+      width: 68
+      height: 68
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_health
+    outer:
+      serializedVersion: 2
+      x: 803
+      y: 153
+      width: 26
+      height: 23
+    inner:
+      serializedVersion: 2
+      x: 803
+      y: 153
+      width: 26
+      height: 23
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0.17391305
+    paddingBottom: 0.17391305
+  - name: Icon_home
+    outer:
+      serializedVersion: 2
+      x: 928
+      y: 796
+      width: 68
+      height: 68
+    inner:
+      serializedVersion: 2
+      x: 928
+      y: 796
+      width: 68
+      height: 68
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Icon_next
+    outer:
+      serializedVersion: 2
+      x: 794
+      y: 847
+      width: 68
+      height: 68
+    inner:
+      serializedVersion: 2
+      x: 794
+      y: 847
+      width: 68
+      height: 68
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Icon_replay
+    outer:
+      serializedVersion: 2
+      x: 895
+      y: 96
+      width: 68
+      height: 68
+    inner:
+      serializedVersion: 2
+      x: 895
+      y: 96
+      width: 68
+      height: 68
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_title_bg
+    outer:
+      serializedVersion: 2
+      x: 831
+      y: 95
+      width: 62
+      height: 61
+    inner:
+      serializedVersion: 2
+      x: 831
+      y: 95
+      width: 62
+      height: 61
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_treasure
+    outer:
+      serializedVersion: 2
+      x: 838
+      y: 604
+      width: 65
+      height: 52
+    inner:
+      serializedVersion: 2
+      x: 838
+      y: 604
+      width: 65
+      height: 52
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_xp
+    outer:
+      serializedVersion: 2
+      x: 843
+      y: 739
+      width: 90
+      height: 47
+    inner:
+      serializedVersion: 2
+      x: 843
+      y: 739
+      width: 90
+      height: 47
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: incomplete_text
+    outer:
+      serializedVersion: 2
+      x: 377
+      y: 178
+      width: 415
+      height: 60
+    inner:
+      serializedVersion: 2
+      x: 377
+      y: 178
+      width: 415
+      height: 60
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: level_up_0
+    outer:
+      serializedVersion: 2
+      x: 573
+      y: 910
+      width: 60
+      height: 79
+    inner:
+      serializedVersion: 2
+      x: 573
+      y: 910
+      width: 60
+      height: 79
+    paddingLeft: 0.016666668
+    paddingRight: 0.016666668
+    paddingTop: 0
+    paddingBottom: 0
+  - name: level_up_1
+    outer:
+      serializedVersion: 2
+      x: 931
+      y: 646
+      width: 48
+      height: 79
+    inner:
+      serializedVersion: 2
+      x: 931
+      y: 646
+      width: 48
+      height: 79
+    paddingLeft: 0.14583333
+    paddingRight: 0.14583333
+    paddingTop: 0
+    paddingBottom: 0
+  - name: level_up_2
+    outer:
+      serializedVersion: 2
+      x: 509
+      y: 910
+      width: 62
+      height: 79
+    inner:
+      serializedVersion: 2
+      x: 509
+      y: 910
+      width: 62
+      height: 79
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: level_up_3
+    outer:
+      serializedVersion: 2
+      x: 920
+      y: 166
+      width: 60
+      height: 79
+    inner:
+      serializedVersion: 2
+      x: 920
+      y: 166
+      width: 60
+      height: 79
+    paddingLeft: 0.016666668
+    paddingRight: 0.016666668
+    paddingTop: 0
+    paddingBottom: 0
+  - name: level_up_4
+    outer:
+      serializedVersion: 2
+      x: 794
+      y: 178
+      width: 60
+      height: 79
+    inner:
+      serializedVersion: 2
+      x: 794
+      y: 178
+      width: 60
+      height: 79
+    paddingLeft: 0.016666668
+    paddingRight: 0.016666668
+    paddingTop: 0
+    paddingBottom: 0
+  - name: level_up_5
+    outer:
+      serializedVersion: 2
+      x: 856
+      y: 166
+      width: 62
+      height: 79
+    inner:
+      serializedVersion: 2
+      x: 856
+      y: 166
+      width: 62
+      height: 79
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: level_up_6
+    outer:
+      serializedVersion: 2
+      x: 934
+      y: 866
+      width: 62
+      height: 79
+    inner:
+      serializedVersion: 2
+      x: 934
+      y: 866
+      width: 62
+      height: 79
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: level_up_7
+    outer:
+      serializedVersion: 2
+      x: 864
+      y: 788
+      width: 62
+      height: 79
+    inner:
+      serializedVersion: 2
+      x: 864
+      y: 788
+      width: 62
+      height: 79
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: level_up_8
+    outer:
+      serializedVersion: 2
+      x: 869
+      y: 658
+      width: 60
+      height: 79
+    inner:
+      serializedVersion: 2
+      x: 869
+      y: 658
+      width: 60
+      height: 79
+    paddingLeft: 0.016666668
+    paddingRight: 0.016666668
+    paddingTop: 0
+    paddingBottom: 0
+  - name: level_up_9
+    outer:
+      serializedVersion: 2
+      x: 905
+      y: 565
+      width: 62
+      height: 79
+    inner:
+      serializedVersion: 2
+      x: 905
+      y: 565
+      width: 62
+      height: 79
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Line_light
+    outer:
+      serializedVersion: 2
+      x: 377
+      y: 240
+      width: 413
+      height: 30
+    inner:
+      serializedVersion: 2
+      x: 577
+      y: 245
+      width: 13
+      height: 15
+    paddingLeft: 0.014527845
+    paddingRight: 0.014527845
+    paddingTop: 0.73333335
+    paddingBottom: 0
+  - name: medal_broken
+    outer:
+      serializedVersion: 2
+      x: 210
+      y: 514
+      width: 157
+      height: 198
+    inner:
+      serializedVersion: 2
+      x: 210
+      y: 514
+      width: 157
+      height: 198
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: medal_bronze
+    outer:
+      serializedVersion: 2
+      x: 210
+      y: 714
+      width: 157
+      height: 197
+    inner:
+      serializedVersion: 2
+      x: 210
+      y: 714
+      width: 157
+      height: 197
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: medal_gold
+    outer:
+      serializedVersion: 2
+      x: 369
+      y: 656
+      width: 156
+      height: 197
+    inner:
+      serializedVersion: 2
+      x: 369
+      y: 656
+      width: 156
+      height: 197
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: medal_silver
+    outer:
+      serializedVersion: 2
+      x: 579
+      y: 466
+      width: 157
+      height: 197
+    inner:
+      serializedVersion: 2
+      x: 579
+      y: 466
+      width: 157
+      height: 197
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: message_box_dragonhead
+    outer:
+      serializedVersion: 2
+      x: 369
+      y: 855
+      width: 151
+      height: 53
+    inner:
+      serializedVersion: 2
+      x: 369
+      y: 855
+      width: 151
+      height: 53
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: pattern
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 95
+      width: 829
+      height: 27
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 95
+      width: 829
+      height: 27
+    paddingLeft: 0
+    paddingRight: 0.009650181
+    paddingTop: 0
+    paddingBottom: 0
+  - name: smoke_fx
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 124
+      width: 375
+      height: 324
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 124
+      width: 375
+      height: 324
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: stamina_icon
+    outer:
+      serializedVersion: 2
+      x: 738
+      y: 466
+      width: 16
+      height: 24
+    inner:
+      serializedVersion: 2
+      x: 738
+      y: 466
+      width: 16
+      height: 24
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: SUCCESS
+    outer:
+      serializedVersion: 2
+      x: 527
+      y: 729
+      width: 314
+      height: 60
+    inner:
+      serializedVersion: 2
+      x: 527
+      y: 729
+      width: 314
+      height: 60
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: text_battle
+    outer:
+      serializedVersion: 2
+      x: 527
+      y: 847
+      width: 265
+      height: 61
+    inner:
+      serializedVersion: 2
+      x: 527
+      y: 847
+      width: 265
+      height: 61
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: text_cleared
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 956
+      width: 317
+      height: 62
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 956
+      width: 317
+      height: 62
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: text_event
+    outer:
+      serializedVersion: 2
+      x: 527
+      y: 665
+      width: 269
+      height: 62
+    inner:
+      serializedVersion: 2
+      x: 527
+      y: 665
+      width: 269
+      height: 62
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Text_levelup
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 450
+      width: 352
+      height: 62
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 450
+      width: 352
+      height: 62
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: text_nobattle_0
+    outer:
+      serializedVersion: 2
+      x: 573
+      y: 910
+      width: 60
+      height: 79
+    inner:
+      serializedVersion: 2
+      x: 573
+      y: 910
+      width: 60
+      height: 79
+    paddingLeft: 0.016666668
+    paddingRight: 0.016666668
+    paddingTop: 0
+    paddingBottom: 0
+  - name: text_nobattle_1
+    outer:
+      serializedVersion: 2
+      x: 931
+      y: 646
+      width: 48
+      height: 79
+    inner:
+      serializedVersion: 2
+      x: 931
+      y: 646
+      width: 48
+      height: 79
+    paddingLeft: 0.14583333
+    paddingRight: 0.14583333
+    paddingTop: 0
+    paddingBottom: 0
+  - name: text_nobattle_2
+    outer:
+      serializedVersion: 2
+      x: 509
+      y: 910
+      width: 62
+      height: 79
+    inner:
+      serializedVersion: 2
+      x: 509
+      y: 910
+      width: 62
+      height: 49
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: text_nobattle_3
+    outer:
+      serializedVersion: 2
+      x: 920
+      y: 166
+      width: 60
+      height: 79
+    inner:
+      serializedVersion: 2
+      x: 920
+      y: 166
+      width: 60
+      height: 79
+    paddingLeft: 0.016666668
+    paddingRight: 0.016666668
+    paddingTop: 0
+    paddingBottom: 0
+  - name: text_nobattle_4
+    outer:
+      serializedVersion: 2
+      x: 794
+      y: 178
+      width: 60
+      height: 79
+    inner:
+      serializedVersion: 2
+      x: 794
+      y: 178
+      width: 60
+      height: 79
+    paddingLeft: 0.016666668
+    paddingRight: 0.016666668
+    paddingTop: 0
+    paddingBottom: 0
+  - name: text_nobattle_5
+    outer:
+      serializedVersion: 2
+      x: 856
+      y: 166
+      width: 62
+      height: 79
+    inner:
+      serializedVersion: 2
+      x: 856
+      y: 166
+      width: 62
+      height: 49
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: text_nobattle_6
+    outer:
+      serializedVersion: 2
+      x: 934
+      y: 866
+      width: 62
+      height: 79
+    inner:
+      serializedVersion: 2
+      x: 934
+      y: 866
+      width: 62
+      height: 79
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: text_nobattle_7
+    outer:
+      serializedVersion: 2
+      x: 864
+      y: 788
+      width: 62
+      height: 79
+    inner:
+      serializedVersion: 2
+      x: 864
+      y: 788
+      width: 62
+      height: 79
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: text_nobattle_8
+    outer:
+      serializedVersion: 2
+      x: 869
+      y: 658
+      width: 60
+      height: 79
+    inner:
+      serializedVersion: 2
+      x: 869
+      y: 658
+      width: 60
+      height: 79
+    paddingLeft: 0.016666668
+    paddingRight: 0.016666668
+    paddingTop: 0
+    paddingBottom: 0
+  - name: text_nobattle_9
+    outer:
+      serializedVersion: 2
+      x: 905
+      y: 565
+      width: 62
+      height: 79
+    inner:
+      serializedVersion: 2
+      x: 905
+      y: 565
+      width: 62
+      height: 79
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: top_frame
+    outer:
+      serializedVersion: 2
+      x: 738
+      y: 587
+      width: 136
+      height: 15
+    inner:
+      serializedVersion: 2
+      x: 795
+      y: 587
+      width: 22
+      height: 15
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: white_dot
+    outer:
+      serializedVersion: 2
+      x: 354
+      y: 450
+      width: 14
+      height: 14
+    inner:
+      serializedVersion: 2
+      x: 354
+      y: 450
+      width: 14
+      height: 14
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1840380901471428}
+  m_IsPrefabParent: 1
+  m_IsExploded: 0

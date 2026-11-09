@@ -1,0 +1,170 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1598678536142213
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4389534354739972}
+  - 114: {fileID: 114707289932214678}
+  m_Layer: 0
+  m_Name: DamageNumbers
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4389534354739972
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1598678536142213}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &114707289932214678
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1598678536142213}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25513f16c3906782bfd27429d86d0f19, type: 3}
+  m_Name:
+  mMat: {fileID: 2100000, guid: 67f143b204af84248a2787ce03f4676d, type: 2}
+  mUVRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  mFont:
+    mGlyphs: []
+    mSize: 133
+    mBase: 99
+    mWidth: 512
+    mHeight: 256
+    mSpriteName: DamageNumbers_0
+    mSaved:
+    - index: 48
+      x: 223
+      y: 0
+      width: 69
+      height: 72
+      offsetX: 6
+      offsetY: 35
+      advance: 55
+      channel: 15
+    - index: 49
+      x: 140
+      y: 72
+      width: 55
+      height: 71
+      offsetX: 10
+      offsetY: 34
+      advance: 55
+      channel: 15
+    - index: 50
+      x: 0
+      y: 72
+      width: 71
+      height: 71
+      offsetX: 0
+      offsetY: 34
+      advance: 55
+      channel: 15
+    - index: 51
+      x: 361
+      y: 0
+      width: 68
+      height: 72
+      offsetX: 3
+      offsetY: 35
+      advance: 55
+      channel: 15
+    - index: 52
+      x: 71
+      y: 72
+      width: 69
+      height: 71
+      offsetX: 2
+      offsetY: 35
+      advance: 55
+      channel: 15
+    - index: 53
+      x: 429
+      y: 0
+      width: 74
+      height: 71
+      offsetX: 2
+      offsetY: 36
+      advance: 55
+      channel: 15
+    - index: 54
+      x: 0
+      y: 0
+      width: 76
+      height: 72
+      offsetX: 5
+      offsetY: 35
+      advance: 55
+      channel: 15
+    - index: 55
+      x: 152
+      y: 0
+      width: 71
+      height: 72
+      offsetX: 12
+      offsetY: 35
+      advance: 55
+      channel: 15
+    - index: 56
+      x: 292
+      y: 0
+      width: 69
+      height: 72
+      offsetX: 5
+      offsetY: 35
+      advance: 55
+      channel: 15
+    - index: 57
+      x: 76
+      y: 0
+      width: 76
+      height: 72
+      offsetX: -2
+      offsetY: 35
+      advance: 55
+      channel: 15
+    - index: 43
+      x: 195
+      y: 72
+      width: 68
+      height: 71
+      offsetX: 0
+      offsetY: 34
+      advance: 55
+      channel: 15
+    mSymbols: []
+  mSpacingX: 0
+  mSpacingY: 0
+  mAtlas: {fileID: 0}
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1598678536142213}
+  m_IsPrefabParent: 1
+  m_IsExploded: 0

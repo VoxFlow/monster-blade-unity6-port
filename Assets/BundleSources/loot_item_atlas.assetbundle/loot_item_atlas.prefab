@@ -1,0 +1,617 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1946647485137082
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4683733457359894}
+  - 114: {fileID: 114028146888005023}
+  m_Layer: 0
+  m_Name: loot_item_atlas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4683733457359894
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1946647485137082}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &114028146888005023
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1946647485137082}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea9f040b2b6bd4bf069e31e0ace12f73, type: 3}
+  m_Name:
+  material: {fileID: 2100000, guid: b573b6bbeb99a3e49913eeb11221c711, type: 2}
+  sprites:
+  - name: beggar_s_boot
+    outer:
+      serializedVersion: 2
+      x: 244
+      y: 610
+      width: 120
+      height: 120
+    inner:
+      serializedVersion: 2
+      x: 244
+      y: 610
+      width: 120
+      height: 120
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: broken_porcelain_doll
+    outer:
+      serializedVersion: 2
+      x: 244
+      y: 488
+      width: 120
+      height: 120
+    inner:
+      serializedVersion: 2
+      x: 244
+      y: 488
+      width: 120
+      height: 120
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: essence_dragon_1
+    outer:
+      serializedVersion: 2
+      x: 244
+      y: 366
+      width: 120
+      height: 120
+    inner:
+      serializedVersion: 2
+      x: 244
+      y: 366
+      width: 120
+      height: 120
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: essence_dragon_2
+    outer:
+      serializedVersion: 2
+      x: 244
+      y: 244
+      width: 120
+      height: 120
+    inner:
+      serializedVersion: 2
+      x: 244
+      y: 244
+      width: 120
+      height: 120
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: essence_dragon_3
+    outer:
+      serializedVersion: 2
+      x: 854
+      y: 122
+      width: 120
+      height: 120
+    inner:
+      serializedVersion: 2
+      x: 854
+      y: 122
+      width: 120
+      height: 120
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: essence_egg_1
+    outer:
+      serializedVersion: 2
+      x: 244
+      y: 732
+      width: 120
+      height: 120
+    inner:
+      serializedVersion: 2
+      x: 244
+      y: 732
+      width: 120
+      height: 120
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: essence_feathers_2
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 732
+      width: 120
+      height: 120
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 732
+      width: 120
+      height: 120
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: essence_fire_1
+    outer:
+      serializedVersion: 2
+      x: 732
+      y: 122
+      width: 120
+      height: 120
+    inner:
+      serializedVersion: 2
+      x: 732
+      y: 122
+      width: 120
+      height: 120
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: essence_fire_2
+    outer:
+      serializedVersion: 2
+      x: 610
+      y: 122
+      width: 120
+      height: 120
+    inner:
+      serializedVersion: 2
+      x: 610
+      y: 122
+      width: 120
+      height: 120
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: essence_fire_3
+    outer:
+      serializedVersion: 2
+      x: 488
+      y: 122
+      width: 120
+      height: 120
+    inner:
+      serializedVersion: 2
+      x: 488
+      y: 122
+      width: 120
+      height: 120
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: essence_fire_4
+    outer:
+      serializedVersion: 2
+      x: 366
+      y: 122
+      width: 120
+      height: 120
+    inner:
+      serializedVersion: 2
+      x: 366
+      y: 122
+      width: 120
+      height: 120
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: essence_lightning_1
+    outer:
+      serializedVersion: 2
+      x: 244
+      y: 122
+      width: 120
+      height: 120
+    inner:
+      serializedVersion: 2
+      x: 244
+      y: 122
+      width: 120
+      height: 120
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: essence_lightning_2
+    outer:
+      serializedVersion: 2
+      x: 122
+      y: 854
+      width: 120
+      height: 120
+    inner:
+      serializedVersion: 2
+      x: 122
+      y: 854
+      width: 120
+      height: 120
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: essence_lightning_3
+    outer:
+      serializedVersion: 2
+      x: 122
+      y: 732
+      width: 120
+      height: 120
+    inner:
+      serializedVersion: 2
+      x: 122
+      y: 732
+      width: 120
+      height: 120
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: essence_lightning_4
+    outer:
+      serializedVersion: 2
+      x: 122
+      y: 610
+      width: 120
+      height: 120
+    inner:
+      serializedVersion: 2
+      x: 122
+      y: 610
+      width: 120
+      height: 120
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: essence_metal_1
+    outer:
+      serializedVersion: 2
+      x: 122
+      y: 488
+      width: 120
+      height: 120
+    inner:
+      serializedVersion: 2
+      x: 122
+      y: 488
+      width: 120
+      height: 120
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: essence_metal_2
+    outer:
+      serializedVersion: 2
+      x: 122
+      y: 366
+      width: 120
+      height: 120
+    inner:
+      serializedVersion: 2
+      x: 122
+      y: 366
+      width: 120
+      height: 120
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: essence_metal_3
+    outer:
+      serializedVersion: 2
+      x: 122
+      y: 244
+      width: 120
+      height: 120
+    inner:
+      serializedVersion: 2
+      x: 122
+      y: 244
+      width: 120
+      height: 120
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: essence_metal_4
+    outer:
+      serializedVersion: 2
+      x: 122
+      y: 122
+      width: 120
+      height: 120
+    inner:
+      serializedVersion: 2
+      x: 122
+      y: 122
+      width: 120
+      height: 120
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: essence_nature_1
+    outer:
+      serializedVersion: 2
+      x: 854
+      y: 0
+      width: 120
+      height: 120
+    inner:
+      serializedVersion: 2
+      x: 854
+      y: 0
+      width: 120
+      height: 120
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: essence_nature_2
+    outer:
+      serializedVersion: 2
+      x: 732
+      y: 0
+      width: 120
+      height: 120
+    inner:
+      serializedVersion: 2
+      x: 732
+      y: 0
+      width: 120
+      height: 120
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: essence_nature_3
+    outer:
+      serializedVersion: 2
+      x: 610
+      y: 0
+      width: 120
+      height: 120
+    inner:
+      serializedVersion: 2
+      x: 610
+      y: 0
+      width: 120
+      height: 120
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: essence_nature_4
+    outer:
+      serializedVersion: 2
+      x: 488
+      y: 0
+      width: 120
+      height: 120
+    inner:
+      serializedVersion: 2
+      x: 488
+      y: 0
+      width: 120
+      height: 120
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: essence_water_1
+    outer:
+      serializedVersion: 2
+      x: 366
+      y: 0
+      width: 120
+      height: 120
+    inner:
+      serializedVersion: 2
+      x: 366
+      y: 0
+      width: 120
+      height: 120
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: essence_water_2
+    outer:
+      serializedVersion: 2
+      x: 244
+      y: 0
+      width: 120
+      height: 120
+    inner:
+      serializedVersion: 2
+      x: 244
+      y: 0
+      width: 120
+      height: 120
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: essence_water_3
+    outer:
+      serializedVersion: 2
+      x: 122
+      y: 0
+      width: 120
+      height: 120
+    inner:
+      serializedVersion: 2
+      x: 122
+      y: 0
+      width: 120
+      height: 120
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: essence_water_4
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 854
+      width: 120
+      height: 120
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 854
+      width: 120
+      height: 120
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: feathers_3
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 610
+      width: 120
+      height: 120
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 610
+      width: 120
+      height: 120
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: feathers_4
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 488
+      width: 120
+      height: 120
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 488
+      width: 120
+      height: 120
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: feathers_5
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 366
+      width: 120
+      height: 120
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 366
+      width: 120
+      height: 120
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: fisherman_s-hat
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 244
+      width: 120
+      height: 120
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 244
+      width: 120
+      height: 120
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: tip_of_an_iceberg
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 122
+      width: 120
+      height: 120
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 122
+      width: 120
+      height: 120
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: underside_of_a_rock
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 120
+      height: 120
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 120
+      height: 120
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1946647485137082}
+  m_IsPrefabParent: 1
+  m_IsExploded: 0

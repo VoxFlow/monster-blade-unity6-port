@@ -1,0 +1,27 @@
+public enum MonsterSpecies
+{
+	Unknown = -1,
+	Raptor = 0,
+	WingSerpent = 1,
+	Bull = 2,
+	Wolf = 3,
+	Hydra = 4,
+	LandDragon = 5,
+	StoneDragon = 6,
+	WingChicken = 7,
+	Tricep = 8,
+	Shark = 9,
+	Rhino = 10,
+	Lizard = 11,
+	MantaRay = 12,
+	Dodobo = 13,
+	Bobodo = 14,
+	Gorilla = 15,
+	DinoBird = 16,
+	KingApe = 17,
+	Bird = 18,
+	Alligator = 19,
+	Worm = 20,
+	EpicDragon = 21,
+	Max = 22
+}
